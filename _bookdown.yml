@@ -1,0 +1,6 @@
+book_filename: "BCB420_Computational_Systems_Biology_Unit1_Basic_prep"
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
+output_dir: docs

@@ -1,0 +1,66 @@
+# Information Sources for Bioinformatics
+(Wikipedia, NAR, Bioinformatics.ca, PubMed, Citation index)
+
+## Overview
+
+### Abstract:
+This unit introduces key information sources for bioinformatics: journals, forums, and supporting sites.
+
+### Deliverables:
+**Time management**: Before you begin, estimate how long it will take you to complete this unit. Then, record in your course journal: the number of hours you estimated, the number of hours you worked on the unit, and the amount of time that passed between start and completion of this unit.
+
+**Journal**: Document your progress in your Course Journal. Some tasks may ask you to include specific items in your journal. Don't overlook these.
+
+**Insights**: If you find something particularly noteworthy about this unit, make a note in your insights! page.
+
+```{block, type="rmd-task"}
+  * Read the [introductory notes on bioinformatics concepts](boris_docs/FND-BIN-Concepts.pdf) for some general observations on bioinformatics, to set the stage.
+  * Read the [introductory notes on information sources for bioinformatics](boris_docs/BIN-Info_sources.pdf).
+```
+
+
+ 
+## Journals
+```{block, type="rmd-task"}
+  * Visit the [Nucleic Acids Research Journal (NAR) site](https://academic.oup.com/nar) and find the current database volume and the Web service volume.
+  * Task yourself to find at least one database and service that interests you, visit it and poke around. You should aim to develop an intuition for what to expect with such resources and how to use the services.
+  * -- (Next, visit bioinformatics.ca, navigate to the "Bioinformatics links directory" and try a sample search - e.g. for "disorder", or "localization". This service has been discontinued - thanks for notifying me, Xiaowen ... will update.) --
+```
+
+Incidentally: you can subscribe to regular Table of Contents updates from any journal. [nature](https://www.nature.com/) and [Science](https://science.sciencemag.org/) should for sure be in your inbox, but subscribe to some of the bioinformatics journal alerts too, at least for this term. A current list of journals is here: [List of bioinformatics journals](https://en.wikipedia.org/wiki/List_of_bioinformatics_journals).
+
+
+ 
+## Forums
+
+Much current, active exchange of bioinformatics knowledge happens in non-traditional platforms:
+
+```{block, type="rmd-task"}
+Visit each of the forums below and find (at least) one item that interests you.
+
+  * [BioStars](https://www.biostars.org/): General bioinformatics, computational-, and systems biology questions (timesink warning!)
+  * [Reddit](https://www.reddit.com/r/bioinformatics/): the bioinformatics "subreddit" (timesink warning!)
+  * [R-help](https://stat.ethz.ch/mailman/listinfo/r-help): The R programming language
+  * [Stack Overflow](https://stackoverflow.com/questions/tagged/r): R-related questions
+  * [BioConductor Support](https://www.bioconductor.org/help/support/): for all questions about the BioConductor Project
+  * [Cross Validated](https://stats.stackexchange.com/): statistics related questions on Stack-exchange
+```
+ 
+## Self-evaluation
+
+## Further reading, links and resources
+ 
+**If in doubt, ask!**<br>
+If anything about this learning unit is not clear to you, do not proceed blindly but ask for clarification. Post your question on the course mailing list: others are likely to have similar problems. Or send an email to your instructor.
+
+```{block2, type="rmd-original-history"}
+<br>**Author**: Boris Steipe <boris.steipe@utoronto.ca> <br>
+**Created**: 2017-08-05<br>
+**Modified**: 2019-09-14<br>
+Version: 1.1<br>
+**Version history**:<br>
+1.1 Bioinformatics.ca links database no longer exists<br>
+1.0 Live version<br>
+0.1 First stub<br>
+``` 
+ 

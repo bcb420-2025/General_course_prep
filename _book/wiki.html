@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>BCB420 - Computational System Biology</title>
+  <meta name="description" content="Prerequisite work for U of T course BCB420 - Computational System Biology" />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="BCB420 - Computational System Biology" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Prerequisite work for U of T course BCB420 - Computational System Biology" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="BCB420 - Computational System Biology" />
+  
+  <meta name="twitter:description" content="Prerequisite work for U of T course BCB420 - Computational System Biology" />
+  
+
+<meta name="author" content="Boris Steipe" />
+
+
+<meta name="date" content="2019-01-04" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="journal.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Unit 1 - Bioinfo Prep</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="wiki.html"><a href="wiki.html"><i class="fa fa-check"></i><b>1</b> Wiki - Editing</a><ul>
+<li class="chapter" data-level="1.1" data-path="wiki.html"><a href="wiki.html#overview"><i class="fa fa-check"></i><b>1.1</b> Overview</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="wiki.html"><a href="wiki.html#abstract"><i class="fa fa-check"></i><b>1.1.1</b> Abstract:</a></li>
+<li class="chapter" data-level="1.1.2" data-path="wiki.html"><a href="wiki.html#objectives"><i class="fa fa-check"></i><b>1.1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="1.1.3" data-path="wiki.html"><a href="wiki.html#outcomes"><i class="fa fa-check"></i><b>1.1.3</b> Outcomes:</a></li>
+<li class="chapter" data-level="1.1.4" data-path="wiki.html"><a href="wiki.html#deliverables"><i class="fa fa-check"></i><b>1.1.4</b> Deliverables:</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="wiki.html"><a href="wiki.html#wiki"><i class="fa fa-check"></i><b>1.2</b> Wiki</a></li>
+<li class="chapter" data-level="1.3" data-path="wiki.html"><a href="wiki.html#the-wiki-concept"><i class="fa fa-check"></i><b>1.3</b> The Wiki concept</a></li>
+<li class="chapter" data-level="1.4" data-path="wiki.html"><a href="wiki.html#editing-basics"><i class="fa fa-check"></i><b>1.4</b> Editing basics</a><ul>
+<li class="chapter" data-level="1.4.1" data-path="wiki.html"><a href="wiki.html#start-editing"><i class="fa fa-check"></i><b>1.4.1</b> Start editing</a></li>
+<li class="chapter" data-level="1.4.2" data-path="wiki.html"><a href="wiki.html#preview-before-saving"><i class="fa fa-check"></i><b>1.4.2</b> Preview before saving</a></li>
+<li class="chapter" data-level="1.4.3" data-path="wiki.html"><a href="wiki.html#basic-text-formatting"><i class="fa fa-check"></i><b>1.4.3</b> Basic text formatting</a></li>
+<li class="chapter" data-level="1.4.4" data-path="wiki.html"><a href="wiki.html#other-special-characters-at-the-beginning-of-a-line-include"><i class="fa fa-check"></i><b>1.4.4</b> Other special characters at the beginning of a line include:</a></li>
+<li class="chapter" data-level="1.4.5" data-path="wiki.html"><a href="wiki.html#other-special-characters-at-the-beginning-of-a-line-include-1"><i class="fa fa-check"></i><b>1.4.5</b> Other special characters at the beginning of a line include:</a></li>
+<li class="chapter" data-level="1.4.6" data-path="wiki.html"><a href="wiki.html#you-can-use-html-tags-too-if-you-want.-some-useful-ways-to-use-html"><i class="fa fa-check"></i><b>1.4.6</b> You can use HTML tags, too, if you want. Some useful ways to use HTML:</a></li>
+<li class="chapter" data-level="1.4.7" data-path="wiki.html"><a href="wiki.html#links"><i class="fa fa-check"></i><b>1.4.7</b> Links</a></li>
+<li class="chapter" data-level="1.4.8" data-path="wiki.html"><a href="wiki.html#special-syntax"><i class="fa fa-check"></i><b>1.4.8</b> Special syntax</a></li>
+<li class="chapter" data-level="1.4.9" data-path="wiki.html"><a href="wiki.html#creating-a-new-page"><i class="fa fa-check"></i><b>1.4.9</b> Creating a new page</a></li>
+<li class="chapter" data-level="1.4.10" data-path="wiki.html"><a href="wiki.html#namespaces"><i class="fa fa-check"></i><b>1.4.10</b> Namespaces</a></li>
+<li class="chapter" data-level="1.4.11" data-path="wiki.html"><a href="wiki.html#categories"><i class="fa fa-check"></i><b>1.4.11</b> Categories</a></li>
+<li class="chapter" data-level="1.4.12" data-path="wiki.html"><a href="wiki.html#creating-a-new-section-or-subsection-on-a-page"><i class="fa fa-check"></i><b>1.4.12</b> Creating a new section or subsection on a page</a></li>
+<li class="chapter" data-level="1.4.13" data-path="wiki.html"><a href="wiki.html#edit-conflicts"><i class="fa fa-check"></i><b>1.4.13</b> Edit conflicts</a></li>
+<li class="chapter" data-level="1.4.14" data-path="wiki.html"><a href="wiki.html#reverting-pages-to-a-previous-state"><i class="fa fa-check"></i><b>1.4.14</b> Reverting pages to a previous state</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="wiki.html"><a href="wiki.html#the-user-space-and-subpages"><i class="fa fa-check"></i><b>1.5</b> The “User space” and subpages</a></li>
+<li class="chapter" data-level="1.6" data-path="wiki.html"><a href="wiki.html#copyright"><i class="fa fa-check"></i><b>1.6</b> Copyright</a></li>
+<li class="chapter" data-level="1.7" data-path="wiki.html"><a href="wiki.html#task"><i class="fa fa-check"></i><b>1.7</b> Task</a></li>
+<li class="chapter" data-level="1.8" data-path="wiki.html"><a href="wiki.html#self-evaluation"><i class="fa fa-check"></i><b>1.8</b> Self-evaluation</a></li>
+<li class="chapter" data-level="1.9" data-path="wiki.html"><a href="wiki.html#notes"><i class="fa fa-check"></i><b>1.9</b> Notes</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="journal.html"><a href="journal.html"><i class="fa fa-check"></i><b>2</b> Your Course Journal</a><ul>
+<li class="chapter" data-level="2.1" data-path="journal.html"><a href="journal.html#overview-1"><i class="fa fa-check"></i><b>2.1</b> Overview</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="journal.html"><a href="journal.html#abstract-1"><i class="fa fa-check"></i><b>2.1.1</b> Abstract:</a></li>
+<li class="chapter" data-level="2.1.2" data-path="journal.html"><a href="journal.html#objectives-1"><i class="fa fa-check"></i><b>2.1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="2.1.3" data-path="journal.html"><a href="journal.html#outcomes-1"><i class="fa fa-check"></i><b>2.1.3</b> Outcomes:</a></li>
+<li class="chapter" data-level="2.1.4" data-path="journal.html"><a href="journal.html#deliverables-1"><i class="fa fa-check"></i><b>2.1.4</b> Deliverables:</a></li>
+<li class="chapter" data-level="2.1.5" data-path="journal.html"><a href="journal.html#prerequisites"><i class="fa fa-check"></i><b>2.1.5</b> Prerequisites:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="journal.html"><a href="journal.html#header"><i class="fa fa-check"></i><b>2.2</b> Header</a></li>
+<li class="chapter" data-level="2.3" data-path="journal.html"><a href="journal.html#objective"><i class="fa fa-check"></i><b>2.3</b> Objective</a></li>
+<li class="chapter" data-level="2.4" data-path="journal.html"><a href="journal.html#estimate-duration"><i class="fa fa-check"></i><b>2.4</b> Estimate duration</a></li>
+<li class="chapter" data-level="2.5" data-path="journal.html"><a href="journal.html#what-to-document"><i class="fa fa-check"></i><b>2.5</b> What to document</a></li>
+<li class="chapter" data-level="2.6" data-path="journal.html"><a href="journal.html#conclusions"><i class="fa fa-check"></i><b>2.6</b> Conclusions</a></li>
+<li class="chapter" data-level="2.7" data-path="journal.html"><a href="journal.html#outlook-for-the-next-tasks"><i class="fa fa-check"></i><b>2.7</b> Outlook for the next tasks</a></li>
+<li class="chapter" data-level="2.8" data-path="journal.html"><a href="journal.html#cross-references"><i class="fa fa-check"></i><b>2.8</b> Cross references</a></li>
+<li class="chapter" data-level="2.9" data-path="journal.html"><a href="journal.html#media"><i class="fa fa-check"></i><b>2.9</b> Media</a><ul>
+<li class="chapter" data-level="2.9.1" data-path="journal.html"><a href="journal.html#images"><i class="fa fa-check"></i><b>2.9.1</b> Images</a></li>
+<li class="chapter" data-level="2.9.2" data-path="journal.html"><a href="journal.html#image-dimensions-and-resolution"><i class="fa fa-check"></i><b>2.9.2</b> Image dimensions and resolution</a></li>
+<li class="chapter" data-level="2.9.3" data-path="journal.html"><a href="journal.html#preparation-of-stereo-views"><i class="fa fa-check"></i><b>2.9.3</b> Preparation of stereo views</a></li>
+<li class="chapter" data-level="2.9.4" data-path="journal.html"><a href="journal.html#code"><i class="fa fa-check"></i><b>2.9.4</b> Code</a></li>
+</ul></li>
+<li class="chapter" data-level="2.10" data-path="journal.html"><a href="journal.html#wikitext-template"><i class="fa fa-check"></i><b>2.10</b> Wikitext Template</a></li>
+<li class="chapter" data-level="2.11" data-path="journal.html"><a href="journal.html#self-evaluation-1"><i class="fa fa-check"></i><b>2.11</b> Self-evaluation</a></li>
+<li class="chapter" data-level="2.12" data-path="journal.html"><a href="journal.html#notes-1"><i class="fa fa-check"></i><b>2.12</b> Notes</a></li>
+<li class="chapter" data-level="2.13" data-path="journal.html"><a href="journal.html#further-reading-links-and-resources"><i class="fa fa-check"></i><b>2.13</b> Further reading, links and resources</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="insights.html"><a href="insights.html"><i class="fa fa-check"></i><b>3</b> Insights!</a><ul>
+<li class="chapter" data-level="3.1" data-path="insights.html"><a href="insights.html#overview-2"><i class="fa fa-check"></i><b>3.1</b> Overview</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="insights.html"><a href="insights.html#abstract-2"><i class="fa fa-check"></i><b>3.1.1</b> Abstract:</a></li>
+<li class="chapter" data-level="3.1.2" data-path="insights.html"><a href="insights.html#objectives-2"><i class="fa fa-check"></i><b>3.1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="3.1.3" data-path="insights.html"><a href="insights.html#outcomes-2"><i class="fa fa-check"></i><b>3.1.3</b> Outcomes:</a></li>
+<li class="chapter" data-level="3.1.4" data-path="insights.html"><a href="insights.html#deliverables-2"><i class="fa fa-check"></i><b>3.1.4</b> Deliverables:</a></li>
+<li class="chapter" data-level="3.1.5" data-path="insights.html"><a href="insights.html#prerequisites-1"><i class="fa fa-check"></i><b>3.1.5</b> Prerequisites:</a></li>
+<li class="chapter" data-level="3.1.6" data-path="insights.html"><a href="insights.html#evaluation"><i class="fa fa-check"></i><b>3.1.6</b> Evaluation</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="insights.html"><a href="insights.html#insights"><i class="fa fa-check"></i><b>3.2</b> Insights</a></li>
+<li class="chapter" data-level="3.3" data-path="insights.html"><a href="insights.html#task-1"><i class="fa fa-check"></i><b>3.3</b> Task</a></li>
+<li class="chapter" data-level="3.4" data-path="insights.html"><a href="insights.html#template"><i class="fa fa-check"></i><b>3.4</b> Template</a></li>
+<li class="chapter" data-level="3.5" data-path="insights.html"><a href="insights.html#notes-2"><i class="fa fa-check"></i><b>3.5</b> Notes</a></li>
+<li class="chapter" data-level="3.6" data-path="insights.html"><a href="insights.html#further-reading-links-and-resources-1"><i class="fa fa-check"></i><b>3.6</b> Further reading, links and resources</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="plagiarism.html"><a href="plagiarism.html"><i class="fa fa-check"></i><b>4</b> Plagiarism and academic integrity</a><ul>
+<li class="chapter" data-level="4.1" data-path="plagiarism.html"><a href="plagiarism.html#overview-3"><i class="fa fa-check"></i><b>4.1</b> Overview</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="plagiarism.html"><a href="plagiarism.html#abstract-3"><i class="fa fa-check"></i><b>4.1.1</b> Abstract:</a></li>
+<li class="chapter" data-level="4.1.2" data-path="plagiarism.html"><a href="plagiarism.html#objectives-3"><i class="fa fa-check"></i><b>4.1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="4.1.3" data-path="plagiarism.html"><a href="plagiarism.html#outcomes-3"><i class="fa fa-check"></i><b>4.1.3</b> Outcomes:</a></li>
+<li class="chapter" data-level="4.1.4" data-path="plagiarism.html"><a href="plagiarism.html#deliverables-3"><i class="fa fa-check"></i><b>4.1.4</b> Deliverables:</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="plagiarism.html"><a href="plagiarism.html#plagarism"><i class="fa fa-check"></i><b>4.2</b> Plagarism</a></li>
+<li class="chapter" data-level="4.3" data-path="plagiarism.html"><a href="plagiarism.html#how-to-reference"><i class="fa fa-check"></i><b>4.3</b> How to reference</a></li>
+<li class="chapter" data-level="4.4" data-path="plagiarism.html"><a href="plagiarism.html#when-and-what-to-reference"><i class="fa fa-check"></i><b>4.4</b> When and what to reference</a></li>
+<li class="chapter" data-level="4.5" data-path="plagiarism.html"><a href="plagiarism.html#reusing-previous-material"><i class="fa fa-check"></i><b>4.5</b> Reusing previous material</a></li>
+<li class="chapter" data-level="4.6" data-path="plagiarism.html"><a href="plagiarism.html#adjusting-results"><i class="fa fa-check"></i><b>4.6</b> “Adjusting” results</a></li>
+<li class="chapter" data-level="4.7" data-path="plagiarism.html"><a href="plagiarism.html#task-2"><i class="fa fa-check"></i><b>4.7</b> Task</a></li>
+<li class="chapter" data-level="4.8" data-path="plagiarism.html"><a href="plagiarism.html#a-final-note"><i class="fa fa-check"></i><b>4.8</b> A final note</a></li>
+<li class="chapter" data-level="4.9" data-path="plagiarism.html"><a href="plagiarism.html#notes-3"><i class="fa fa-check"></i><b>4.9</b> Notes</a></li>
+<li class="chapter" data-level="4.10" data-path="plagiarism.html"><a href="plagiarism.html#further-reading-links-and-resources-2"><i class="fa fa-check"></i><b>4.10</b> Further reading, links and resources</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="backup.html"><a href="backup.html"><i class="fa fa-check"></i><b>5</b> Data Backup Best Practice</a><ul>
+<li class="chapter" data-level="5.1" data-path="backup.html"><a href="backup.html#overview-4"><i class="fa fa-check"></i><b>5.1</b> Overview</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="backup.html"><a href="backup.html#abstract-4"><i class="fa fa-check"></i><b>5.1.1</b> Abstract:</a></li>
+<li class="chapter" data-level="5.1.2" data-path="backup.html"><a href="backup.html#objectives-4"><i class="fa fa-check"></i><b>5.1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="5.1.3" data-path="backup.html"><a href="backup.html#outcomes-4"><i class="fa fa-check"></i><b>5.1.3</b> Outcomes:</a></li>
+<li class="chapter" data-level="5.1.4" data-path="backup.html"><a href="backup.html#deliverables-4"><i class="fa fa-check"></i><b>5.1.4</b> Deliverables:</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="backup.html"><a href="backup.html#data-backups"><i class="fa fa-check"></i><b>5.2</b> Data backups</a></li>
+<li class="chapter" data-level="5.3" data-path="backup.html"><a href="backup.html#task-3"><i class="fa fa-check"></i><b>5.3</b> Task:</a></li>
+<li class="chapter" data-level="5.4" data-path="backup.html"><a href="backup.html#self-evaluation-2"><i class="fa fa-check"></i><b>5.4</b> Self-evaluation</a></li>
+<li class="chapter" data-level="5.5" data-path="backup.html"><a href="backup.html#notes-4"><i class="fa fa-check"></i><b>5.5</b> Notes</a></li>
+<li class="chapter" data-level="5.6" data-path="backup.html"><a href="backup.html#further-reading-links-and-resources-3"><i class="fa fa-check"></i><b>5.6</b> Further reading, links and resources</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="cargocult.html"><a href="cargocult.html"><i class="fa fa-check"></i><b>6</b> Cargo Cult Science</a><ul>
+<li class="chapter" data-level="6.1" data-path="cargocult.html"><a href="cargocult.html#overview-5"><i class="fa fa-check"></i><b>6.1</b> Overview</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="cargocult.html"><a href="cargocult.html#abstract-5"><i class="fa fa-check"></i><b>6.1.1</b> Abstract:</a></li>
+<li class="chapter" data-level="6.1.2" data-path="cargocult.html"><a href="cargocult.html#objectives-5"><i class="fa fa-check"></i><b>6.1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="6.1.3" data-path="cargocult.html"><a href="cargocult.html#outcomes-5"><i class="fa fa-check"></i><b>6.1.3</b> Outcomes:</a></li>
+<li class="chapter" data-level="6.1.4" data-path="cargocult.html"><a href="cargocult.html#deliverables-5"><i class="fa fa-check"></i><b>6.1.4</b> Deliverables:</a></li>
+<li class="chapter" data-level="6.1.5" data-path="cargocult.html"><a href="cargocult.html#prerequisites-2"><i class="fa fa-check"></i><b>6.1.5</b> Prerequisites:</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="cargocult.html"><a href="cargocult.html#cargo-cult"><i class="fa fa-check"></i><b>6.2</b> Cargo Cult</a></li>
+<li class="chapter" data-level="6.3" data-path="cargocult.html"><a href="cargocult.html#task-4"><i class="fa fa-check"></i><b>6.3</b> Task:</a></li>
+<li class="chapter" data-level="6.4" data-path="cargocult.html"><a href="cargocult.html#self-evaluation-3"><i class="fa fa-check"></i><b>6.4</b> Self-evaluation</a></li>
+<li class="chapter" data-level="6.5" data-path="cargocult.html"><a href="cargocult.html#notes-5"><i class="fa fa-check"></i><b>6.5</b> Notes</a></li>
+<li class="chapter" data-level="6.6" data-path="cargocult.html"><a href="cargocult.html#further-reading-links-and-resources-4"><i class="fa fa-check"></i><b>6.6</b> Further reading, links and resources</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html"><i class="fa fa-check"></i><b>7</b> Netiquette - (Network Etiquette)</a><ul>
+<li class="chapter" data-level="7.1" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#overview-6"><i class="fa fa-check"></i><b>7.1</b> Overview</a><ul>
+<li class="chapter" data-level="7.1.1" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#abstract-6"><i class="fa fa-check"></i><b>7.1.1</b> Abstract:</a></li>
+<li class="chapter" data-level="7.1.2" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#objectives-6"><i class="fa fa-check"></i><b>7.1.2</b> Objectives:</a></li>
+<li class="chapter" data-level="7.1.3" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#outcomes-6"><i class="fa fa-check"></i><b>7.1.3</b> Outcomes:</a></li>
+<li class="chapter" data-level="7.1.4" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#deliverables-6"><i class="fa fa-check"></i><b>7.1.4</b> Deliverables:</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#be-kind"><i class="fa fa-check"></i><b>7.2</b> Be kind</a></li>
+<li class="chapter" data-level="7.3" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#pay-attention-who-you-reply-to"><i class="fa fa-check"></i><b>7.3</b> Pay attention who you reply to</a></li>
+<li class="chapter" data-level="7.4" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#use-informative-subject-lines"><i class="fa fa-check"></i><b>7.4</b> Use informative subject lines</a></li>
+<li class="chapter" data-level="7.5" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#dont-hijack-threads"><i class="fa fa-check"></i><b>7.5</b> Don’t hijack threads</a></li>
+<li class="chapter" data-level="7.6" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#follow-the-discussion"><i class="fa fa-check"></i><b>7.6</b> Follow the discussion</a></li>
+<li class="chapter" data-level="7.7" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#describe-problems-clearly"><i class="fa fa-check"></i><b>7.7</b> Describe problems clearly</a></li>
+<li class="chapter" data-level="7.8" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#avoid-screenshots"><i class="fa fa-check"></i><b>7.8</b> Avoid screenshots</a></li>
+<li class="chapter" data-level="7.9" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#show-us-that-youve-done-your-homework"><i class="fa fa-check"></i><b>7.9</b> Show us that you’ve done your homework</a></li>
+<li class="chapter" data-level="7.10" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#use-mixed-case-and-write-full-words"><i class="fa fa-check"></i><b>7.10</b> Use mixed case and write full words</a></li>
+<li class="chapter" data-level="7.11" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#dont-troll"><i class="fa fa-check"></i><b>7.11</b> Don’t Troll</a></li>
+<li class="chapter" data-level="7.12" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#no-need-to-directly-address-someone"><i class="fa fa-check"></i><b>7.12</b> No need to directly address someone</a></li>
+<li class="chapter" data-level="7.13" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#resolve-when-done"><i class="fa fa-check"></i><b>7.13</b> Resolve when done</a></li>
+<li class="chapter" data-level="7.14" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#self-evaluation-4"><i class="fa fa-check"></i><b>7.14</b> Self-evaluation</a></li>
+<li class="chapter" data-level="7.15" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#notes-6"><i class="fa fa-check"></i><b>7.15</b> Notes</a></li>
+<li class="chapter" data-level="7.16" data-path="netiquette-network-etiquette.html"><a href="netiquette-network-etiquette.html#further-reading-links-and-resources-5"><i class="fa fa-check"></i><b>7.16</b> Further reading, links and resources</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>8</b> About</a><ul>
+<li class="chapter" data-level="8.1" data-path="about.html"><a href="about.html#attributions"><i class="fa fa-check"></i><b>8.1</b> Attributions:</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BCB420 - Computational System Biology</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">BCB420 - Computational System Biology</h1>
+<p class="author"><em>Boris Steipe</em></p>
+<p class="date"><em>2019-01-04</em></p>
+</div>
+<div id="wiki" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Wiki - Editing</h1>
+<p>(Wiki editing, namespaces; user page setup; copyright, a Course Journal stub page, and an insights! stub page)</p>
+<div id="overview" class="section level2">
+<h2><span class="header-section-number">1.1</span> Overview</h2>
+<div id="abstract" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> Abstract:</h3>
+<p>This will likely be the first learning unit you work with, since your Course Journal will be kept on a Wiki, as well as all other deliverables. This unit includes an introduction to authoring Wikitext and the structure of Wikis, in particular how different pages live in separate “Namespaces”. The unit also covers the standard markup conventions - “Wikitext markup” - the same conventions that are used on Wikipedia - as well as some extensions that are specific to our Course- and Student Wiki. We also discuss page categories that help keep a Wiki organized, licensing under a Creative Commons Attribution license, and how to add licenses and other page components through template codes.</p>
+</div>
+<div id="objectives" class="section level3">
+<h3><span class="header-section-number">1.1.2</span> Objectives:</h3>
+<ul>
+<li>Provide an introduction to Wiki principles and Wikitext markup.</li>
+<li>Create first pages on your own on the Student Wiki.</li>
+<li>Learn about copyright, why we use Creative Commons licenses for the Student Wiki and how to place a license tag.</li>
+</ul>
+</div>
+<div id="outcomes" class="section level3">
+<h3><span class="header-section-number">1.1.3</span> Outcomes:</h3>
+<ul>
+<li>You are competent with basic Wiki markup and the extensions on this Wiki.</li>
+<li>You can create pages and add them to categories while taking care to create them into your own user space.</li>
+<li>You have created your own user page on the Student Wiki and added contents.</li>
+<li>You have created page stubs for a Course Journal and an insights! page.</li>
+</ul>
+</div>
+<div id="deliverables" class="section level3">
+<h3><span class="header-section-number">1.1.4</span> Deliverables:</h3>
+<ul>
+<li>Specified as “Tasks”: There are no general deliverables for this unit; specific deliverables are described in the “Task” sections.</li>
+</ul>
+</div>
+</div>
+<div id="wiki" class="section level2">
+<h2><span class="header-section-number">1.2</span> Wiki</h2>
+<p>Collaboration is a common theme for modern lab work and a Wiki is a great way to share and seamlessly update information in groups - or just for yourself. Probably the most sophisticated Wiki software is MediaWiki, a set of PHP scripts that is under continuous development by the Wikimedia foundation; it is the same software that runs Wikipedia. This is open source, free software that is easy to install, is well documented and requires very little resources other than a machine that runs a MySQL database server and an Apache Webserver. Numerous extensions exist (and extensions are not hard to write); they enhance the already rich functionality. But let’s start with small steps. You should by now have a user account on the Student Wiki, and I have configured that Wiki so that * only logged in users can view the pages; but … * all logged in users can create and edit (most) pages at will. * This means you could edit pages that don’t “belong” to you. Respect the “House Rules” and don’t edit other’s things without permission, even if you can think of a particularly witty comment or hilarious prank. If you want to comment on a page: every page has an associated “Discussion” page that you can freely edit. Remember to “sign your name” to discussion entries.</p>
+<div class="rmd-task">
+<ol style="list-style-type: decimal">
+<li>
+Access the Student Wiki;
+</li>
+<li>
+log in and navigate to your user page. (Your user page is linked to your name that appears at the top of every Wikipage once you are logged in.)
+</li>
+<li>
+Create / edit the page, try out and experiment with the Wikitext syntax that this unit covers as you read about the different elements.
+</li>
+<li>
+Work through the contents below.
+</li>
+</ol>
+</div>
+<p>For more extensive formatting help see: <a href="http://meta.wikimedia.org/wiki/Help:Editing" class="uri">http://meta.wikimedia.org/wiki/Help:Editing</a> For Math markup see: <a href="http://meta.wikimedia.org/wiki/Help:Formula" class="uri">http://meta.wikimedia.org/wiki/Help:Formula</a></p>
+</div>
+<div id="the-wiki-concept" class="section level2">
+<h2><span class="header-section-number">1.3</span> The Wiki concept</h2>
+<p>Wiki sites are collections of Web pages that allow you to view, edit and create pages from your browser, there is no need for special technology and basic editing is simple and intuitive with “Wikitext markup”. The basic workflow of Wikis is straightforward: * Register an account and browse the site. * Whenever you find something that you can improve, edit it. * Whenever you find something that you would like to comment on, click on the “discussion” tab and share your views. * If you are interested in what becomes of your edits or the discussion, click on the “watch” tab, and the page will be added to a list of bookmarks to pages you are “watching”. (You can even generate an RSS feed for recent changes or new pages). * No e-mail, no obligations. Do what you like, when you like, what you can. * Editing on the Course Wiki is only enabled for instructors. However you can freely edit all pages on the Student Wiki, once you have an account.</p>
+</div>
+<div id="editing-basics" class="section level2">
+<h2><span class="header-section-number">1.4</span> Editing basics</h2>
+<div id="start-editing" class="section level3">
+<h3><span class="header-section-number">1.4.1</span> Start editing</h3>
+<p>To start editing a Wiki page, click on the “Edit” link at one of its edges. This will bring you to the edit page: a page with a text box containing the wikitext: the editable source code from which the server produces the webpage.</p>
+</div>
+<div id="preview-before-saving" class="section level3">
+<h3><span class="header-section-number">1.4.2</span> Preview before saving</h3>
+<p>When you have finished, press Show preview to see how your changes will look. Repeat the edit/preview process until you are satisfied, then click Save and your changes will be immediately applied to the article and accessible on the Web. They will also be stored in the main database for as long as the Wiki exists. Thus it is always possible to get back earlier versions of pages - back to the very first edit.</p>
+</div>
+<div id="basic-text-formatting" class="section level3">
+<h3><span class="header-section-number">1.4.3</span> Basic text formatting</h3>
+<p>Here are some examples of the markup of Wikitext. It is not the same as HTML markup, however some HTML markup will work. In particular, the Wiki applies styles through CSS technology (Cascading Style Sheets) and thus HTML tags can be used to apply consistent styles to individual page elements. Javascript won’t work.</p>
+<table>
+<colgroup>
+<col width="47%" />
+<col width="52%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">What you type</th>
+<th align="left">What it looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">You can emphasize text by putting two apostrophes on each side. Three apostrophes will emphasize it strongly. Five apostrophes is even stronger.</td>
+<td align="left">You can <strong>emphasize text</strong> by putting two apostrophes on each side. Three apostrophes will emphasize it <strong>strongly</strong>. Five apostrophes is <strong>even stronger</strong>.</td>
+</tr>
+<tr class="even">
+<td align="left">A single newline has no effect on the layout.But an empty line starts a new paragraph.</td>
+<td align="left">A single newline has no effect on the layout.<br> But an empty line starts a new paragraph.</td>
+</tr>
+<tr class="odd">
+<td align="left">You can break lines without starting a new paragraph using a &lt;br&gt; tag.</td>
+<td align="left">You can break lines<br> without starting a new paragraph.<br></td>
+</tr>
+</tbody>
+</table>
+<p>(This may not be very useful beyond the types of examples we show here, but it is a frequent source of confusion, when you find your text marked up this way by accident) You can format text in a monospace font with a dashed box around it either by marking it with the HTML &lt;pre&gt; tag, or by putting a blank space at the beginning of a line. Example:</p>
+<pre>You can format text in a monospace font with a dashed box around it either by marking it with the HTML \<pre\>" tag, or by putting a blank space at the beginning of a line.</pre>
+</div>
+<div id="other-special-characters-at-the-beginning-of-a-line-include" class="section level3">
+<h3><span class="header-section-number">1.4.4</span> Other special characters at the beginning of a line include:</h3>
+<p>bulleted list</p>
+<ul>
+<li>bulleted list</li>
+</ul>
+<p>numbered list</p>
+<ol style="list-style-type: decimal">
+<li>numbered list</li>
+</ol>
+<p>term</p>
+<p>; term</p>
+<dl>
+<dt>definition</dt>
+<dd><p>and definition</p>
+</dd>
+</dl>
+</div>
+<div id="other-special-characters-at-the-beginning-of-a-line-include-1" class="section level3">
+<h3><span class="header-section-number">1.4.5</span> Other special characters at the beginning of a line include:</h3>
+<p>You should “sign” your comments on discussion pages: Three tildes gives your user name - Boris (talk) Four tildes: user name plus date/time - Boris (talk) 22:18, 27 December 2012 (EST) Five tildes: date/time alone - 22:18, 27 December 2012 (EST) You should “sign” your comments on discusion pages: : Three tildes gives your user name - <sub>~</sub> : Four tildes: user name plus date/time - ~<sub>~</sub> : Five tildes: date/time alone - <sub>~</sub>~~</p>
+<ul>
+<li>Use normal HTML character codes for special characters, or use Unicode. For example: &gt; &lt; &amp; ° Å Ä ü →</li>
+<li>Use normal HTML character codes for special characters, or use Unicode. For example: &gt; &lt; &amp; ° Å Ä ü →</li>
+</ul>
+</div>
+<div id="you-can-use-html-tags-too-if-you-want.-some-useful-ways-to-use-html" class="section level3">
+<h3><span class="header-section-number">1.4.6</span> You can use HTML tags, too, if you want. Some useful ways to use HTML:</h3>
+<table>
+<colgroup>
+<col width="47%" />
+<col width="52%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">What you type</th>
+<th align="left">What it looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Put text in a typewriter font (with &lt;tt&gt;). The same font is generally used for computer code (with &lt;code&gt;).</td>
+<td align="left">Put text in a <tt>typewriter font</tt>.The same font is generally used for <code>computer code</code>.</td>
+</tr>
+<tr class="even">
+<td align="left">Strike out (with &lt;string&gt;) or underline text(&lt;u&gt;), or write it in small caps(with &lt;span style=“font-variant:small-caps”&gt;.</td>
+<td align="left"><strike>Strike out</strike> or <u>underline</u> text, or write it <span style="font-variant: small-caps;"> in small caps</span>.</td>
+</tr>
+<tr class="odd">
+<td align="left">Superscripts (with &lt;sup&gt;) and subscripts(with &lt;sub&gt;) : x2, x2</td>
+<td align="left">x<sup>2</sup>, x<sub>2</sub></td>
+</tr>
+<tr class="even">
+<td align="left">Invisible comments that only appear while editing the page.</td>
+<td align="left"><!-- Note to editors: blah blah blah. --></td>
+</tr>
+</tbody>
+</table>
+<p>For a list of HTML tags that are allowed, see HTML in wikitext. I tend to use Wiki-markup when I’m in a hurry, but use the HTML tag whenever I can’t remember a Wiki-tag. It really doesn’t make a difference. However: I never use Wiki-table markup. I find it less intuitive than HTML markup, more difficult to debug, and there’s really no point in remembering both types of markup given that one really needs to be comfortable with HTML tables anyway.</p>
+</div>
+<div id="links" class="section level3">
+<h3><span class="header-section-number">1.4.7</span> Links</h3>
+<p>You will often want to make clickable links to other pages. What it looks like What you type Here’s a link to a page named Sandbox. You can even say Sandboxes and the link will show up right. You can put formatting around a link. Example: Sandbox. Here’s a link to a page named [[Sandbox]]. You can even say [[Sandbox]]es and the link will show up right.</p>
+<p>You can put formatting around a link. Example: ‘’[[Sandbox]]’’.</p>
+<p>You can link to an arbitrary piece of text with a piped link. Put the link target first, then the pipe character “|”, then the link text - as in this example. You can link an arbitrary piece of text with a ‘’piped link’’. Put the link target first, then the pipe character “|”, then the link text - as in [[Sandbox| this example]].</p>
+<p>You can make an external link to a Web page just by typing an URL, e.g. <a href="http://igem.org" class="uri">http://igem.org</a> Or you can link arbitrary text: iGEM. (Note: No “|” for external links, URL and text are separated by a blank, and only single square brackets!) Or you can generate a footnote-like link: [1]. You can make an external link to a Web page just by typing an URL, e.g. <a href="http://igem.org" class="uri">http://igem.org</a></p>
+<p>Or you can link arbitrary text: [<a href="http://igem.org" class="uri">http://igem.org</a> iGEM]. (Note: No “|” for ‘’’external’’’ links, URL and text are separated by a blank, and only single square brackets!)</p>
+<p>Or you can generate a footnote-like link: [<a href="http://igem.org" class="uri">http://igem.org</a>].</p>
+<p><strong>Note</strong>: remember: internal links (using [[…]] tags to link to pages on this Wiki) are separated from linked text with a pipe character. External links (using […] tags to link to pages elsewhere on the Internet) are separated from linked text with a space character.</p>
+</div>
+<div id="special-syntax" class="section level3">
+<h3><span class="header-section-number">1.4.8</span> Special syntax</h3>
+<p>Two special syntax items need to be mentioned: “templates” and “magic words”: #### Templates Templates are pieces of Wikitext that are substituted where a code that links to them has been placed into a page. For example, if you enter {{Lorem}} on a page, the “Lorem ipsum dolor sit amet …” placeholder text is inserted in place of that code. Wikis make extensive use of templates. #### Magic words some reserved “magic”-words are replaced with dynamically created contents when the page is rendered. For example <strong>TOC</strong> forces placing a Table Of Contents at the position of this token rather than its default position, while <strong>NOTOC</strong> suppresses creation of a Table Of Contents on a page.</p>
+</div>
+<div id="creating-a-new-page" class="section level3">
+<h3><span class="header-section-number">1.4.9</span> Creating a new page</h3>
+<p>To create a new page simply insert a link to a Wiki page, which has a page name that does not exist yet. The link will appear in red (except if you inadvertently used the name of a page that already exists), and the new page will be created when you click on the link. Page names can be long and contain blank spaces. Internally, all blank spaces are converted to underscore characters, but you can use the page name without underscores in links; the Wiki software translates this for you.</p>
+</div>
+<div id="namespaces" class="section level3">
+<h3><span class="header-section-number">1.4.10</span> Namespaces</h3>
+<p>The Wiki maintains some pages in special collections, in so called “namespaces”. This is useful, because the behaviour of the software can be customized for different namespaces: for example you may be allowed to edit in the main- and the user- namespace, but not in the MediaWiki: namespace, where pages are held that affect the gears and wires of the Wiki. Page names without a prefix live in the main space. Some commonly used prefixes are: * User: - personal pages for user with an account on the Wiki; * Talk: - discussion pages for comments on pages, accessible via the “Discussion” tab; * Help: - this page for example; * Template: - pages with reusable text. * Special: - pages that implement special functionality (like login, user lists, or lists of recently changed pages); * Category: - an index of pages that have been given a common tag. This is a convenient way to access pages that are in some way related;</p>
+</div>
+<div id="categories" class="section level3">
+<h3><span class="header-section-number">1.4.11</span> Categories</h3>
+<p>Once your page has been edited, you can associate it with one or more categories. Add the appropriate category tag by typing [[Category:BCH441_2013]] or [[Category:BCB410_2013]]. The page is then automatically linked from a page that collects all pages with that category tag. I would prefer that you do not create new categories; ask me if you feel a need for it.</p>
+</div>
+<div id="creating-a-new-section-or-subsection-on-a-page" class="section level3">
+<h3><span class="header-section-number">1.4.12</span> Creating a new section or subsection on a page</h3>
+<p>To create a section or subsection, simply insert a section header into an existing section. Header levels are defined by the number of “=” characters before and after the header text. Click on an edit link of this page to see example code. Once a page has more than two headings, the Wiki automatically creates a table of contents. You can adjust the position of the table of contents by typing the “magic word” __TOC__somewhere on your page (Note: double underscore), you can also suppress having a table of contents created with<strong>NOTOC</strong>.</p>
+</div>
+<div id="edit-conflicts" class="section level3">
+<h3><span class="header-section-number">1.4.13</span> Edit conflicts</h3>
+<p>If someone else makes an edit while you are making yours, the result is an edit conflict. Many conflicts can be automatically resolved by the Wiki. If it can’t be resolved, however, you will need to resolve it yourself. The Wiki gives you two text boxes, where the top one is the other person’s edit and the bottom one is your edit. Merge your edits into the top edit box, which is the only one that will be saved.</p>
+</div>
+<div id="reverting-pages-to-a-previous-state" class="section level3">
+<h3><span class="header-section-number">1.4.14</span> Reverting pages to a previous state</h3>
+<p>Sometimes a page needs to be reverted to a previous state. Access the page through a link to the Recent Changes special page: Special:Recentchanges. Find the page you need to revert, click on the hist link, click on the version you need and verify that it is the correct one. Then click on the edit tab at the top and Save page. A new version of the page is then created with the old text. Note that this does not actually overwrite anything - all edits are archived in the database.</p>
+</div>
+</div>
+<div id="the-user-space-and-subpages" class="section level2">
+<h2><span class="header-section-number">1.5</span> The “User space” and subpages</h2>
+<p>The User: namespace on the Student Wiki is especially important. Namespaces allow us to distinguish pages that share the same logical name. Every student will create a journal page, but of course there can be only one [[Journal]] page on the Wiki. Therefore each of these pages needs a distinct name. The obvious solution is to keep them in the User: namespace, and create them as subpages of everyone’s User page. The page name of your user page is [[User:<your-login-name>]]; subpages are created with a backslash, and therefore your Course Journal page should be [[User:<your-login-name>/Journal]]. if you take more than one course, you can separate the journals like [[User:<your-login-name>/BCH441-Journal]], [[User:<your-login-name>/BCB410-Journal]], etc. Please do not create pages in the “Main space” of the Student Wiki! Do not omit the User:<your-login-name>/ part of the page name.</p>
+</div>
+<div id="copyright" class="section level2">
+<h2><span class="header-section-number">1.6</span> Copyright</h2>
+<p>Over the last decades, in bioinformatics and many other fields of science, the paradigm under which we create value has profoundly changed. While we previously considered restrictions on the use of our insights important, tried to keep knowledge under control, and thought in terms of intellectual property, the modern paradigm is mindshare. We strive to make our work maximally useful to others, and to document how we are creating this utility. This does not mean that we are simply putting everything into the public domain: yes, people should use our ideas, but we must receive credit - as a currency for grant and scholarship applications and the like, to enable our future work. The right tool for this is copyright. Everything we write and create automatically falls under our copyright, there is no special copyright tag required. To have our material reused, we can either relinquish our copyright or grant a license to reuse. Material that is created in coursework will ideally be useful elsewhere, but it is only useful if its use is permitted and regulated. Wikis are tools for collaboration, and Wikipedia generally applies a site-wise license to all material. In our work we take a similar approach, but we apply licenses more specifically[1]. All material submitted for credit, including code, documentation, essays, manuals, images, lab journal entries, insights! pages etc. must be licensed with an appropriate open-source license. This is a strict requirement for the course. For code this is the MIT software license, for everything else this is the Creative Commons Attribution 4.0 International License. The MIT license for code guarantees that there are no restrictions on re-use other than fair and visible attribution of the authors’ work. The CC license guarantees proper attribution of authorship but allows free use otherwise. Together, these licenses allow the material to be used, refactored, updated and republished and thus (hopefully) give it a fertile future life. In order to keep copyright and licenses consistent throughout the site, we use a template tag - simply insert it at the bottom of a page: Entering the template code … {{CC-BY}} creates the copyright message …</p>
+<p>This copyrighted material is licensed under a Creative Commons Attribution 4.0 International License. Follow the link to learn more.</p>
+</div>
+<div id="task" class="section level2">
+<h2><span class="header-section-number">1.7</span> Task</h2>
+<div class="rmd-task">
+<ul>
+<li>
+Practice basic editing syntax by putting contents on your User Page:
+<ul>
+<li>
+enter your name,
+</li>
+<li>
+your major(s), specialist program, year of study - or a link to your lab and your thesis theme if you are a graduate student;
+</li>
+<li>
+enter your email address. I use this information a lot when I need to contact students, so make sure it is correct and current.
+</li>
+<li>
+Add a category tag to your User page for the course you are taking. All pages with this tag are accessible via the link in the sidebar. What should the category tag say? Good question … go and find out.
+</li>
+<li>
+Add a copyright template to the bottom of your user page by putting a {{CC-BY}} tag on its bottom.
+</li>
+<li>
+Feel free to look at my User Page for code examples: clicking on the edit link will show you the source text. How do you find my User Page? Good question …
+</li>
+<li>
+Create a subpage to your User Page; call it “Journal”. Note: the link MUST be in your “User space”. If you don’t add the prefix User:yourname/… before your page name, the new page will end up in the main “namespace”. I’ll then have to delete it. That’s not good. Make sure you know what you are doing, for example by looking at the code on my User Page, asking someone who knows, or asking on the mailing list.
+</li>
+<li>
+Put some placeholder text on your journal page, you will fill it in when you work through the Journal unit.
+</li>
+<li>
+Similarly, create an “insights!” page on a subpage to your User Page and add some placeholder text. That will be expanded when you work through the insights! unit.
+</li>
+<li>
+Play around some more. Feel free to ask how to go about achieving a particular effect that you may have seen elsewhere.
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="self-evaluation" class="section level2">
+<h2><span class="header-section-number">1.8</span> Self-evaluation</h2>
+<p>You should be familiar with the following: * How to Login to the Student Wiki and access your user page; * viewing a page’s history; * basic text formatting and Wiki markup; * “signing” your name; * creating internal and external links; * creating section headers on a page on multiple levels; * reverting a changed page to an earlier version; * creating a new page (as a subpage of an existing page); * the concept of namespaces - especially the default (“main”) and User: namespace; * the concept of categories and how to add a page to a category; * copyright on the Student Wiki, and how to insert a license note.</p>
+</div>
+<div id="notes" class="section level2">
+<h2><span class="header-section-number">1.9</span> Notes</h2>
+<p><strong>Note</strong>: that additional rules for collaboration in the context of coursework derive from the rules for academic integrity and plagiarism. If some text is not copyrighted, this does not mean you can use it without reference and thus imply it is your own idea. That would be plagiarism. ## Further reading, links and resources</p>
+<p><strong>If in doubt, ask!</strong><br> If anything about this learning unit is not clear to you, do not proceed blindly but ask for clarification. Post your question on the course mailing list: others are likely to have similar problems. Or send an email to your instructor.</p>
+
+<div class="rmd-original-history">
+<br><strong>Author</strong>: Boris Steipe <a href="mailto:boris.steipe@utoronto.ca">boris.steipe@utoronto.ca</a> <br> <strong>Created</strong>: 2017-08-05<br> <strong>Modified</strong>: 2019-01-04<br> Version: 1.1<br> <strong>Version history</strong>:<br> 1.1 Changed software license from GNU-GPL to MIT<br> 1.0 Completed outcomes/objectives. Added copyright. First live version.<br> 0.2 First contents imported from Help:editing. Added tasks.<br> 0.1 First stub<br>
+</div>
+
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="journal.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-Wiki_editing.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["BCB420_Computational_Systems_Biology_Unit1_Basic_prep.pdf", "BCB420_Computational_Systems_Biology_Unit1_Basic_prep.epub"],
+"toc": {
+"collapse": "subsection",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
