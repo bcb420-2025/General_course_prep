@@ -1,6 +1,8 @@
 book_filename: "BCB420_Computational_Systems_Biology_Unit1_Basic_prep"
-language:
-  ui:
-    chapter_name: "Chapter "
-delete_merged_file: true
+chapter_name: "Chapter "
+repo: https://https://github.com/bcb420-2020/General_course_prep
 output_dir: docs
+rmd_files: ["index.Rmd", "01-Wiki_editing.Rmd", "02-Journal.Rmd", "03-Insights.Rmd", "04-Plagiarism.Rmd", "05-Data_backups.Rmd",  "06-Cargo_cult.Rmd","07-Netiquette.Rmd", "09_Bin_info_sources.Rmd"]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
+delete_merged_file: true
