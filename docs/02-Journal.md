@@ -301,5 +301,10 @@ Version: 1.3<br>
 0.1 First stub<br>
  </div>\EndKnitrBlock{rmd-original-history}
  
+### Updated Revision history
+
+Revision   Author          Date         Message                                                                                                                                                            
+---------  --------------  -----------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8950904    Ruth Isserlin   2019-12-22   Initial check in of converted wiki pages from Boris Steipe's bcb420 course material pagewiki pages were converted to bookdown and formatted to the bookdown format 
 
 

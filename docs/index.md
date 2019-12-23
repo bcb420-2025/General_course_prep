@@ -1,16 +1,18 @@
 --- 
 title: "BCB420 - Computational System Biology"
-author: "Boris Steipe"
-date: "2019-01-04"
-#date: "2019-12-21"
+author: "Main author: Boris Steipe; Modified: Ruth Isserlin"
+date: "last modified 2019-12-23"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-#github-repo: rstudio/bookdown-demo
+github-repo: bcb420-2020/General_course_prep
 description: "Prerequisite work for U of T course BCB420 - Computational System Biology"
+download: ["pdf", "epub"]
+history: https://github.com/bcb420-2020/General_course_prep/commits/master/%s
+view:  https://github.com/bcb420-2020/General_course_prep/blob/master/%s
 ---
 
 # About
@@ -29,3 +31,6 @@ install.packages("bookdown")
 ```
 
 Icons are from the [“Very Basic. Android L Lollipop” set by Ivan Boyko](https://www.iconfinder.com/iconsets/very-basic-android-l-lollipop) licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). 
+
+
+

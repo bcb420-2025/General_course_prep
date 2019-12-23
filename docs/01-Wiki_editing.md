@@ -150,7 +150,7 @@ the link text - as in [[Sandbox| this example]].
 
 You can make an external link to a Web page just by typing an URL, e.g. http://igem.org
 Or you can link arbitrary text: iGEM. (Note: No "|" for external links, URL and text are separated by a blank, and only single square brackets!)
-Or you can generate a footnote-like link: [1].
+Or you can generate a footnote-like link: ^[example footnote].
 You can make an external link to a Web page
 just by typing an URL, e.g. http://igem.org
 
@@ -214,7 +214,7 @@ Please do not create pages in the "Main space" of the Student Wiki! Do not omit 
 ## Copyright
 Over the last decades, in bioinformatics and many other fields of science, the paradigm under which we create value has profoundly changed. While we previously considered restrictions on the use of our insights important, tried to keep knowledge under control, and thought in terms of intellectual property, the modern paradigm is mindshare. We strive to make our work maximally useful to others, and to document how we are creating this utility. This does not mean that we are simply putting everything into the public domain: yes, people should use our ideas, but we must receive credit - as a currency for grant and scholarship applications and the like, to enable our future work. The right tool for this is copyright.
 Everything we write and create automatically falls under our copyright, there is no special copyright tag required. To have our material reused, we can either relinquish our copyright or grant a license to reuse. Material that is created in coursework will ideally be useful elsewhere, but it is only useful if its use is permitted and regulated.
-Wikis are tools for collaboration, and Wikipedia generally applies a site-wise license to all material. In our work we take a similar approach, but we apply licenses more specifically[1]. All material submitted for credit, including code, documentation, essays, manuals, images, lab journal entries, insights! pages etc. must be licensed with an appropriate open-source license. This is a strict requirement for the course. For code this is the MIT software license, for everything else this is the Creative Commons Attribution 4.0 International License. The MIT license for code guarantees that there are no restrictions on re-use other than fair and visible attribution of the authors' work. The CC license guarantees proper attribution of authorship but allows free use otherwise. Together, these licenses allow the material to be used, refactored, updated and republished and thus (hopefully) give it a fertile future life.
+Wikis are tools for collaboration, and Wikipedia generally applies a site-wise license to all material. In our work we take a similar approach, but we apply licenses more specifically^[**Note**:that additional rules for collaboration in the context of coursework derive from the rules for academic integrity and plagiarism. If some text is not copyrighted, this does not mean you can use it without reference and thus imply it is your own idea. That would be plagiarism.]. All material submitted for credit, including code, documentation, essays, manuals, images, lab journal entries, insights! pages etc. must be licensed with an appropriate open-source license. This is a strict requirement for the course. For code this is the MIT software license, for everything else this is the Creative Commons Attribution 4.0 International License. The MIT license for code guarantees that there are no restrictions on re-use other than fair and visible attribution of the authors' work. The CC license guarantees proper attribution of authorship but allows free use otherwise. Together, these licenses allow the material to be used, refactored, updated and republished and thus (hopefully) give it a fertile future life.
 In order to keep copyright and licenses consistent throughout the site, we use a template tag - simply insert it at the bottom of a page:
 Entering the template code ...
 {{CC-BY}}
@@ -223,6 +223,7 @@ creates the copyright message ...
  This copyrighted material is licensed under a Creative Commons Attribution 4.0 International License. Follow the link to learn more.
 
 ## Task 
+
 <div class="rmd-task">
 <ul>
 <li>Practice basic editing syntax by putting contents on your User Page:
@@ -255,14 +256,14 @@ You should be familiar with the following:
   * the concept of categories and how to add a page to a category;
   * copyright on the Student Wiki, and how to insert a license note.
 
-## Notes
-
-**Note**: that additional rules for collaboration in the context of coursework derive from the rules for academic integrity and plagiarism. If some text is not copyrighted, this does not mean you can use it without reference and thus imply it is your own idea. That would be plagiarism.
 ## Further reading, links and resources
  
 
 **If in doubt, ask!**<br>
 If anything about this learning unit is not clear to you, do not proceed blindly but ask for clarification. Post your question on the course mailing list: others are likely to have similar problems. Or send an email to your instructor.
+
+
+
 
  
 \BeginKnitrBlock{rmd-original-history}<div class="rmd-original-history"><br>**Author**: Boris Steipe <boris.steipe@utoronto.ca> <br>
@@ -275,3 +276,11 @@ Version: 1.1<br>
 0.2 First contents imported from Help:editing. Added tasks.<br>
 0.1 First stub<br>
  </div>\EndKnitrBlock{rmd-original-history}
+
+### Updated Revision history
+
+Revision   Author          Date         Message                                                                                                                                                            
+---------  --------------  -----------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8950904    Ruth Isserlin   2019-12-22   Initial check in of converted wiki pages from Boris Steipe's bcb420 course material pagewiki pages were converted to bookdown and formatted to the bookdown format 
+
+### Footnotes:

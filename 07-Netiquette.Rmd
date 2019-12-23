@@ -55,7 +55,7 @@ If you have a new question, never simply write it into the reply to an older thr
   * it will be much harder to search;
   * the original poster's question gets diluted and may never get appropriately discussed;
   * you demonstrate that you didn't actually care enough to type up a subject line.
-  * Use your mail-client's reply function if you contribute to a thread, write a new mail or post if you have something new to add. [1]
+  * Use your mail-client's reply function if you contribute to a thread, write a new mail or post if you have something new to add. ^[Some mailing list software builds thread based on subject line and some software builds thread based on message ID. Only changing the subject line may not be sufficient to start a new thread. Since you usually don't know which does what, use the rule above to be sure.]
   * As a corollary: if your post is related to the thread, by all means do use the reply function of your mail client and don't change the subject line, even if you think the original subject line was not well written or contained a (non-critical) typo etc.
  
  
@@ -127,16 +127,11 @@ A separate reason to resolving such threads is that they are archived, and when 
  
  
 ## Self-evaluation
-**Question 1**: Zachary has run into an issue when downloading an R package. He posts a screenshot of his computer in the mailing list to ask what could have gone wrong. Good or bad?
+**Question 1**: Zachary has run into an issue when downloading an R package. He posts a screenshot of his computer in the mailing list to ask what could have gone wrong. Good or bad? ^[**Bad**.Reread the "Avoid screenshots" section above if you disagree.]
  
-**Question 2**:Amadeus has been following a discussion on the mailing list about Zachary's problem. That reminds him that he wasn't sure how to find a package that contains a particular function. He replies to Zachary's thread and asks his question. Good or bad?
+**Question 2**:Amadeus has been following a discussion on the mailing list about Zachary's problem. That reminds him that he wasn't sure how to find a package that contains a particular function. He replies to Zachary's thread and asks his question. Good or bad? ^[**Bad**. Reread the "Don't hijack threads" section above if you disagree.]
  
-**Question 3**:Kaila responds to a post I have made, about some subtleties in identifying homologous sequences by sequence alignment. She is in a hurry and doesn't address me by name in her post. Good or bad?
- 
- 
- 
-## Notes
-* Some mailing list software builds thread based on subject line and some software builds thread based on message ID. Only changing the subject line may not be sufficient to start a new thread. Since you usually don't know which does what, use the rule above to be sure.
+**Question 3**:Kaila responds to a post I have made, about some subtleties in identifying homologous sequences by sequence alignment. She is in a hurry and doesn't address me by name in her post. Good or bad? ^[**Good**. Reread the "No need to directly address someone" section above if you disagree.]
 
 ## Further reading, links and resources
 
@@ -161,4 +156,12 @@ Version: 1.1<br>
 0.1 First stub<br>
  
 ```
- 
+
+### Updated Revision history
+```{r echo=FALSE}
+source("./bcb420_books_helper_functions.R")
+knitr::kable(githistory2table(git2r::commits(repo=".",path=knitr::current_input())))
+
+```
+
+### Footnotes: 

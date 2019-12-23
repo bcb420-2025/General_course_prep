@@ -6,11 +6,14 @@
 Keeping a journal is an essential task in a laboratory. To practice keeping a technical journal, you will document your activities as you are working through the material of the course. A significant part of your term grade will be given for this Course Journal. This unit introduces components and best practice for lab- and course journals and includes a wiki-source template to begin your own journal on the Student Wiki.
 
 ### Objectives:
+
   * Introducing components and best practice of lab- and course journals
   * Presenting sample wiki-text for Journal entries
 
 ### Outcomes:
+
 Upon concluding this unit you should be able to ...
+
   * Begin a structured course journal on the Student Wiki using proper wiki text;
   * Write your own journal entries, including media images and code as required;
   * Cross-reference journal entries with links;
@@ -18,6 +21,7 @@ Upon concluding this unit you should be able to ...
   * Estimate the time you need for tasks, and develop a habit of improving your time-management skills.
 
 ### Deliverables:
+
   1. Your Journal: Your entire journal will be evaluated at the end of the course. Refer to the marking rubrics for details.
   1. Insights: If you find something particularly noteworthy about this unit, make a note in your insights! page.
 
@@ -306,5 +310,11 @@ Version: 1.3<br>
  
 ```
  
+### Updated Revision history
+```{r echo=FALSE}
+source("./bcb420_books_helper_functions.R")
+knitr::kable(githistory2table(git2r::commits(repo=".",path=knitr::current_input())))
+
+```
 
 

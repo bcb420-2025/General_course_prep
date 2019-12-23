@@ -64,3 +64,10 @@ Version: 1.1<br>
 0.1 First stub<br>
 ``` 
  
+### Updated Revision history
+```{r echo=FALSE}
+source("./bcb420_books_helper_functions.R")
+knitr::kable(githistory2table(git2r::commits(repo=".",path=knitr::current_input())))
+
+```
+

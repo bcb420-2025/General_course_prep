@@ -1,8 +1,38 @@
 book_filename: "BCB420_Computational_Systems_Biology_Unit1_Basic_prep"
-chapter_name: "Chapter "
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
 repo: https://https://github.com/bcb420-2020/General_course_prep
 output_dir: docs
 rmd_files: ["index.Rmd", "01-Wiki_editing.Rmd", "02-Journal.Rmd", "03-Insights.Rmd", "04-Plagiarism.Rmd", "05-Data_backups.Rmd",  "06-Cargo_cult.Rmd","07-Netiquette.Rmd", "09_Bin_info_sources.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
-delete_merged_file: true
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: subsection
+      scroll_highlight: yes
+      before: null
+      after: null
+    toolbar:
+      position: fixed
+    edit : https://github.com/bcb420-2020/General_course_prep/edit/master/%s
+    view : https://github.com/bcb420-2020/General_course_prep/blob/master/%s
+    history : https://github.com/bcb420-2020/General_course_prep/commit/master/%s
+    download: no
+    search: yes
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing:
+      facebook: yes
+      github: no
+      twitter: yes
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
+    info: yes
