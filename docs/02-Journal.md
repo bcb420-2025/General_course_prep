@@ -6,11 +6,14 @@
 Keeping a journal is an essential task in a laboratory. To practice keeping a technical journal, you will document your activities as you are working through the material of the course. A significant part of your term grade will be given for this Course Journal. This unit introduces components and best practice for lab- and course journals and includes a wiki-source template to begin your own journal on the Student Wiki.
 
 ### Objectives:
+
   * Introducing components and best practice of lab- and course journals
   * Presenting sample wiki-text for Journal entries
 
 ### Outcomes:
+
 Upon concluding this unit you should be able to ...
+
   * Begin a structured course journal on the Student Wiki using proper wiki text;
   * Write your own journal entries, including media images and code as required;
   * Cross-reference journal entries with links;
@@ -18,6 +21,7 @@ Upon concluding this unit you should be able to ...
   * Estimate the time you need for tasks, and develop a habit of improving your time-management skills.
 
 ### Deliverables:
+
   1. Your Journal: Your entire journal will be evaluated at the end of the course. Refer to the marking rubrics for details.
   1. Insights: If you find something particularly noteworthy about this unit, make a note in your insights! page.
 
@@ -30,7 +34,9 @@ Fabrication could include things like: modifying results produced by your code, 
   * **Note:** All journal pages on the Student Wiki—like all other submitted material—must contain a {{CC-BY}} template.</div>\EndKnitrBlock{rmd-caution}
 
 ### Prerequisites:
+
 You need the following preparation before beginning this unit. If you are not familiar with this material from courses you took previously, you need to prepare yourself from other information sources:
+
   * '''Inquiry''': The scientific method; evidence based reasoning; how to design, execute and document an experiment; Conjecture, hypothesis and theory.
   * '''Writing''': Basic essay and report writing skills. How to format your submitted materials, how to quote, cite and avoid plagiarism.
   * This unit builds on material covered in the following prerequisite units:
@@ -86,10 +92,13 @@ The learning units in this course require you to estimate beforehand how long yo
       1. Analysis results - The results of sequence analyses, alignments etc. in general get recorded in your documentation. Again: be selective. Record what is important.
  
 ## Conclusions
+
 Note your conclusions. - An analysis is not complete unless you conclude something from the results. 
+
   * Are two sequences likely homologues, or not? Just pasting the BLAST output is not enough. It's your call - '''record it'''.
   * Does your protein contain a signal-sequence or does it not? SignalP will give you a probability, but you must make the final call.
   * Is a binding site conserved, or not? The programs can only point out sections of similarity or dissimilarity. You are the one who interprets these numbers in their biological context.
+  
 The analysis provides the data. In your conclusion you provide the interpretation of what the data means in the context of your objective. Were you expecting a signal-sequence but there isn't one? What could that mean? Sometimes your task will explicitly include to elaborate on an analysis and conclusion. But this does not mean that when analysis is not explicitly mentioned, you can skip the interpretation. In general you can never expect full marks if analysis and conclusions are missing.
  
 ## Outlook for the next tasks
@@ -104,6 +113,7 @@ Cross-references to other information are supremely valuable as your documentati
 ## Media
  
 ### Images
+
   * Use discretion when uploading images
   * Don't upload irrelevant images, don't upload copyrighted images, keep the size reasonable.
 Prepare your images well
@@ -113,16 +123,23 @@ Prepare your images well
   * .bmp is not preferred for really anything, it is bloated in its (default) uncompressed form and primarily used only because it is simple to code and ubiquitous on Windows computers. Accordingly we don't support it here.
 
 ### Image dimensions and resolution
+
 Stereo images should have equivalent points displayed approximately 6cm apart. It depends on your monitor how many pixels this corresponds to. The dimensions of an image are stated in pixels (width x height). My notebook screen has a native display resolution of 1440 x 900 pixels/23.5 x 21 cm. Therefore a 6cm separation on my notebook corresponds to approximately 260 pixels. However on my desktop monitor, 260 pixels is 6.7 cm across. And on a high-resolution iPad display, at 227 ppi (pixels per inch), 260 pixels are just 2.9 cm across. If your assigment or learning unit ask you to prepare stero images: adjust your images so they are approximately at the right separation and are approximately 500 to 600 pixels wide. Also, scale your molecules so they fill the available window and - if you have depth cueing enabled - move them close to the front clipping plane so the molecule is not just a dim blob, lost in murky shadows.
+
 Considerations for print (manuscripts etc.) are slightly different: for print output you can specify the output resolution in dpi (dots per inch). A typical print resolution is about 300 dpi: 6 cm separation at 300dpi is about 700 pixels. Print images should therefore be about three times as large in width and height as screen images.
 
 ### Preparation of stereo views
+
   * When assignments or leartning units ask you to create images of molecules, always create stereo views.
   * Keep your images uncluttered and expressive
-  * Scale the molecular model to fill the available space of your image well. Orient views so they illustrate a point you are trying to make. Emphasize residues that you are writing about with a contrasting colouring scheme. Add labels, where residue identities are not otherwise obvious. Turn off side-chains for residues that are not important. The more you practice these small details, the more efficient you will become in the use of your tools.
+  * Scale the molecular model to fill the available space of your image well.
+  
+  Orient views so they illustrate a point you are trying to make. Emphasize residues that you are writing about with a contrasting colouring scheme. Add labels, where residue identities are not otherwise obvious. Turn off side-chains for residues that are not important. The more you practice these small details, the more efficient you will become in the use of your tools.
  
 ### Code
+
 Always markup code using the GeSHi extension. This provides syntax highlighting, which is very useful to read the code. You simply place the code-block into opening- and closing "source" tags, and tell GeSHi which language it should assume. For R-code this looks like:
+
 ```r
 for i in 1:10{
   a = 1
@@ -130,11 +147,13 @@ for i in 1:10{
 ```
 
 You can also use GeSHi to markup plain text - (although you can achieve a similar effect by simply beginning each line with a blank " ").
+
 ```
 Lorem ipsum dolor sit amet ...
 ```
 
 ## Wikitext Template
+
 The section below contains Wiki-markup code that you can copy and paste for your course journal.
 
 
@@ -305,6 +324,7 @@ Version: 1.3<br>
 
 Revision   Author          Date         Message                                                                                                                                                            
 ---------  --------------  -----------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+f56a24c    Ruth Isserlin   2019-12-23   Added new git info to each fileAdded new git info to each file (in addition to the original version history copied over from Boris's wiki).                        
 8950904    Ruth Isserlin   2019-12-22   Initial check in of converted wiki pages from Boris Steipe's bcb420 course material pagewiki pages were converted to bookdown and formatted to the bookdown format 
 
 

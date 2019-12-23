@@ -142,6 +142,7 @@ Version: 1.1.1<br>
 
 Revision   Author          Date         Message                                                                                                                                                            
 ---------  --------------  -----------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+f56a24c    Ruth Isserlin   2019-12-23   Added new git info to each fileAdded new git info to each file (in addition to the original version history copied over from Boris's wiki).                        
 8950904    Ruth Isserlin   2019-12-22   Initial check in of converted wiki pages from Boris Steipe's bcb420 course material pagewiki pages were converted to bookdown and formatted to the bookdown format 
 
 ### Footnotes:

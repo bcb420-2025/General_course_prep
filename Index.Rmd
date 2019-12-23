@@ -11,6 +11,7 @@ link-citations: yes
 github-repo: bcb420-2020/General_course_prep
 description: "Prerequisite work for U of T course BCB420 - Computational System Biology"
 download: ["pdf", "epub"]
+edit : https://github.com/bcb420-2020/General_course_prep/edit/master/%s
 history: https://github.com/bcb420-2020/General_course_prep/commits/master/%s
 view:  https://github.com/bcb420-2020/General_course_prep/blob/master/%s
 ---
