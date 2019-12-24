@@ -98,7 +98,9 @@ Do not ever change code output by hand. If an assignment asks you to submit code
  
 Above, I've highlighted a few issues that I have come accross in past courses. Below, are extensive resources that will help you work better. Go and read them.
 
-## Task
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block2, type="rmd-task"}
   * Visit the following sites and read the material carefully:
   

@@ -13,6 +13,9 @@ This unit introduces key information sources for bioinformatics: journals, forum
 
 **Insights**: If you find something particularly noteworthy about this unit, make a note in your insights! page.
 
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block, type="rmd-task"}
   * Read the [introductory notes on bioinformatics concepts](boris_docs/FND-BIN-Concepts.pdf) for some general observations on bioinformatics, to set the stage.
   * Read the [introductory notes on information sources for bioinformatics](boris_docs/BIN-Info_sources.pdf).
@@ -21,6 +24,10 @@ This unit introduces key information sources for bioinformatics: journals, forum
 
  
 ## Journals
+
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block, type="rmd-task"}
   * Visit the [Nucleic Acids Research Journal (NAR) site](https://academic.oup.com/nar) and find the current database volume and the Web service volume.
   * Task yourself to find at least one database and service that interests you, visit it and poke around. You should aim to develop an intuition for what to expect with such resources and how to use the services.
@@ -34,6 +41,9 @@ Incidentally: you can subscribe to regular Table of Contents updates from any jo
 ## Forums
 
 Much current, active exchange of bioinformatics knowledge happens in non-traditional platforms:
+
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
 
 ```{block, type="rmd-task"}
 Visit each of the forums below and find (at least) one item that interests you.

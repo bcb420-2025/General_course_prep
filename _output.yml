@@ -13,5 +13,6 @@ bookdown::gitbook:
     view : https://github.com/bcb420-2020/General_course_prep/blob/master/%s
     history : https://github.com/bcb420-2020/General_course_prep/commit/master/%s
     download: ["epub"]
+    new_session: no
 bookdown::epub_book: default
 

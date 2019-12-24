@@ -41,7 +41,9 @@ It's rare that a fundamental insight is formulated so memorably, but it is so ve
 
   * Consider the marking [rubric](http://steipe.biochemistry.utoronto.ca/abc/index.php/ABC-Rubrics#insights.21): continuous engagement is important, as well as successfully grasping the essence of what you are doing. You are welcome to study other's pages, and to quote, but you must give credit where appropriate. Be very careful not to plagiarize.
 
-## Task  
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block2, type="rmd-task"}
   * Make a link to a new insights! page as a subpage of your user page on the Student Wiki.        
   * Make sure the page is created in the correct namespace, not in the main space of the Wiki.

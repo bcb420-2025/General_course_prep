@@ -30,6 +30,9 @@ Collaboration is a common theme for modern lab work and a Wiki is a great way to
   * all logged in users can create and edit (most) pages at will.
   * This means you could edit pages that don't "belong" to you. Respect the "House Rules" and don't edit other's things without permission, even if you can think of a particularly witty comment or hilarious prank. If you want to comment on a page: every page has an associated "Discussion" page that you can freely edit. Remember to "sign your name" to discussion entries.
 
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block, type="rmd-task"}
   1. Access the Student Wiki;
   1. log in and navigate to your user page. (Your user page is linked to your name that appears at the top of every Wikipage once you are logged in.) 
@@ -201,7 +204,8 @@ creates the copyright message ...
 
  This copyrighted material is licensed under a Creative Commons Attribution 4.0 International License. Follow the link to learn more.
 
-## Task 
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
 
 ```{block, type="rmd-task"}
   * Practice basic editing syntax by putting contents on your User Page:

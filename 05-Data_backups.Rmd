@@ -24,6 +24,9 @@ After working through this unit you ...
 ## Data backups
 When was the last time you made a full backup of your computer's hard-drive? Too long ago? I thought so.
 
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block, type="rmd-task"}
   1. Backup your hard-drive now.
 ```
@@ -37,9 +40,11 @@ Enterprise-scale data in bioinformatics labs need dedicated solution and that is
   * off-machine storage in removable disk is a questionable startegy because everything that is not fully automatic is liable to fall victim to complecancy;
   * Whenever possible, make differential backups. And remember: NO backup is a backup unless recovery of data has been tested and shown to work.
 
-## Task:
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block, type="rmd-task"}
-  * Use this Google Search for links to recent articles about backup options.
+  * Use this [Google Search](https://www.google.ca/search?q=backup+options&num=20&tbs=qdr:y) for links to recent articles about backup options.
   * Read a few articles that are relevant for your computer.
   * Decide on a backup strategy for your computer.
   * Implement your strategy.

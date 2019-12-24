@@ -42,7 +42,9 @@ The essence of Cargo Cult is not merely poor science. What makes it "Cargo Cult"
 
 The topic is interesting for bioinformatics because the deficiencies are often subtle, and hard for the non-expert to spot. To guard against Cargo Cult takes integrity, and practice. A structured approach may be helpful that first clearly identifies the hoped-for outcome, then defines the proposed activities, then asks in specific detail how the outcome would be caused by the activity. **Causation** is key here - many examples of Cargo Cult behaviour are based on a mistaken belief in causation, where actually merely a correlation was observed. But you have to be careful: the fact that causation has not been shown does not prove it is absent. And even if causation is absent, that does not automatically make the behaviour invalid: sometimes you are right for the wrong reason. Both cases are not Cargo Cult. Rather, it is characteristic for situations we should label as Cargo Cult that there "is no cargo in the system": you are looking in the wrong place, you don't have a control or reference value, you don't understand your data - or similar problems.
  
-## Task:
+`r task_counter <- task_counter + 1`
+## Task `r task_counter`
+
 ```{block, type="rmd-task"}
   1. Read a brief introduction to ideas about ["Cargo Cult Bioinformatics"](./boris_docs/FND-Cargo_Cult.pdf).
   1. Visit the [Student Wiki: Cargo_Cult_Science page](http://steipe.biochemistry.utoronto.ca/abc/students/index.php/Cargo_Cult_Science) (and its associated [Student Wiki: Not_(quite)_Cargo_Cult_Science](http://steipe.biochemistry.utoronto.ca/abc/students/index.php/Not_(quite)_Cargo_Cult_Science) page) on the Student Wiki and add an example of your own that you have encountered during your studies or elsewhere^[Make sure your example has not already been posted by someone else - it would be Cargo Cult to post it again.].
