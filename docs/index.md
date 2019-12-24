@@ -1,7 +1,7 @@
 --- 
 title: "BCB420 - Computational System Biology"
 author: "Main author: Boris Steipe; Modified: Ruth Isserlin"
-date: "last modified 2019-12-23"
+date: "last modified 2019-12-24"
 site: bookdown::bookdown_site
 output:   bookdown::gitbook
 documentclass: book

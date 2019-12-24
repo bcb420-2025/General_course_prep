@@ -390,7 +390,7 @@ Work through the contents below.
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">You can emphasize text by putting two apostrophes on each side. Three apostrophes will emphasize it strongly. Five apostrophes is even stronger.</td>
+<td align="left">You can ‘’emphasize text’‘by putting two apostrophes on each side. Three apostrophes will emphasize it’‘’strongly’‘’. Five apostrophes is’‘’’‘even stronger’‘’’’.</td>
 <td align="left">You can <strong>emphasize text</strong> by putting two apostrophes on each side. Three apostrophes will emphasize it <strong>strongly</strong>. Five apostrophes is <strong>even stronger</strong>.</td>
 </tr>
 <tr class="even">
@@ -408,29 +408,71 @@ Work through the contents below.
 </div>
 <div id="other-special-characters-at-the-beginning-of-a-line-include" class="section level3">
 <h3><span class="header-section-number">2.4.4</span> Other special characters at the beginning of a line include:</h3>
-<p>bulleted list</p>
-<ul>
-<li>bulleted list</li>
-</ul>
-<p>numbered list</p>
-<ol style="list-style-type: decimal">
-<li>numbered list</li>
-</ol>
-<p>term</p>
-<p>; term</p>
-<dl>
-<dt>definition</dt>
-<dd><p>and definition</p>
-</dd>
-</dl>
+<table>
+<thead>
+<tr class="header">
+<th align="left">What you type</th>
+<th align="left">What it looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">* bulleted list</td>
+<td align="left">* bulleted list</td>
+</tr>
+<tr class="even">
+<td align="left"># numbered list</td>
+<td align="left">1. numbered list</td>
+</tr>
+<tr class="odd">
+<td align="left">; term</td>
+<td align="left"><strong>term</strong></td>
+</tr>
+<tr class="even">
+<td align="left">: definition</td>
+<td align="left"><strong>definition</strong></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="other-special-characters-at-the-beginning-of-a-line-include-1" class="section level3">
 <h3><span class="header-section-number">2.4.5</span> Other special characters at the beginning of a line include:</h3>
-<p>You should “sign” your comments on discussion pages: Three tildes gives your user name - Boris (talk) Four tildes: user name plus date/time - Boris (talk) 22:18, 27 December 2012 (EST) Five tildes: date/time alone - 22:18, 27 December 2012 (EST) You should “sign” your comments on discusion pages: : Three tildes gives your user name - <sub>~</sub> : Four tildes: user name plus date/time - ~<sub>~</sub> : Five tildes: date/time alone - <sub>~</sub>~~</p>
-<ul>
-<li>Use normal HTML character codes for special characters, or use Unicode. For example: &gt; &lt; &amp; ° Å Ä ü →</li>
-<li>Use normal HTML character codes for special characters, or use Unicode. For example: &gt; &lt; &amp; ° Å Ä ü →</li>
-</ul>
+<p>You should “sign” your comments on discussion pages:</p>
+<table>
+<colgroup>
+<col width="47%" />
+<col width="52%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">What you type</th>
+<th align="left">What it looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">: Three tildes gives your user name - ~~~</td>
+<td align="left">Three tildes gives your user name - Boris (talk)</td>
+</tr>
+<tr class="even">
+<td align="left">: Four tildes: user name plus date/time - ~~~~</td>
+<td align="left">Four tildes: user name plus date/time - Boris (talk) 22:18, 27 December 2012 (EST)</td>
+</tr>
+<tr class="odd">
+<td align="left">: Five tildes: date/time alone - ~~~~~</td>
+<td align="left">Five tildes: date/time alone - 22:18, 27 December 2012 (EST)</td>
+</tr>
+<tr class="even">
+<td align="left">Use normal HTML character codes for special characters, or use Unicode. For example: &amp;gt; &amp;lt; &amp;amp; &amp;deg; &amp;Aring; &amp;Auml; &amp;uuml; &amp;rarr;</td>
+<td align="left">Use normal HTML character codes for special characters, or use Unicode. For example: &gt; &lt; &amp; ° Å Ä ü →</td>
+</tr>
+</tbody>
+</table>
+
+<div class="rmd-caution">
+Signatures NOT supported in github wikimedia implementation
+</div>
+
 </div>
 <div id="you-can-use-html-tags-too-if-you-want.-some-useful-ways-to-use-html" class="section level3">
 <h3><span class="header-section-number">2.4.6</span> You can use HTML tags, too, if you want. Some useful ways to use HTML:</h3>
@@ -464,21 +506,55 @@ Work through the contents below.
 </tr>
 </tbody>
 </table>
-<p>For a list of HTML tags that are allowed, see HTML in wikitext. I tend to use Wiki-markup when I’m in a hurry, but use the HTML tag whenever I can’t remember a Wiki-tag. It really doesn’t make a difference. However: I never use Wiki-table markup. I find it less intuitive than HTML markup, more difficult to debug, and there’s really no point in remembering both types of markup given that one really needs to be comfortable with HTML tables anyway.</p>
+<p>For a list of HTML tags that are allowed, see <a href="https://meta.wikimedia.org/wiki/Help:HTML_in_wikitext">HTML in wikitext</a>. I tend to use Wiki-markup when I’m in a hurry, but use the HTML tag whenever I can’t remember a Wiki-tag. It really doesn’t make a difference.</p>
+<p>However: I never use Wiki-table markup. I find it less intuitive than HTML markup, more difficult to debug, and there’s really no point in remembering both types of markup given that one really needs to be comfortable with HTML tables anyway.</p>
 </div>
 <div id="links" class="section level3">
 <h3><span class="header-section-number">2.4.7</span> Links</h3>
-<p>You will often want to make clickable links to other pages. What it looks like What you type Here’s a link to a page named Sandbox. You can even say Sandboxes and the link will show up right. You can put formatting around a link. Example: Sandbox. Here’s a link to a page named [[Sandbox]]. You can even say [[Sandbox]]es and the link will show up right.</p>
-<p>You can put formatting around a link. Example: ‘’[[Sandbox]]’’.</p>
-<p>You can link to an arbitrary piece of text with a piped link. Put the link target first, then the pipe character “|”, then the link text - as in this example. You can link an arbitrary piece of text with a ‘’piped link’’. Put the link target first, then the pipe character “|”, then the link text - as in [[Sandbox| this example]].</p>
-<p>You can make an external link to a Web page just by typing an URL, e.g. <a href="http://igem.org" class="uri">http://igem.org</a> Or you can link arbitrary text: iGEM. (Note: No “|” for external links, URL and text are separated by a blank, and only single square brackets!) Or you can generate a footnote-like link:.<a href="information-sources-for-bioinformatics.html#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> You can make an external link to a Web page just by typing an URL, e.g. <a href="http://igem.org" class="uri">http://igem.org</a></p>
-<p>Or you can link arbitrary text: [<a href="http://igem.org" class="uri">http://igem.org</a> iGEM]. (Note: No “|” for ‘’’external’’’ links, URL and text are separated by a blank, and only single square brackets!)</p>
-<p>Or you can generate a footnote-like link: [<a href="http://igem.org" class="uri">http://igem.org</a>].</p>
+<p>You will often want to make clickable links to other pages.</p>
+<table>
+<colgroup>
+<col width="47%" />
+<col width="52%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">What you type</th>
+<th align="left">What it looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Here’s a link to a page named [[Sandbox]].<br> You can even say [[Sandbox]]es<br> and the link will show up right.<br>You can put formatting around a link. Example: ‘’[[Sandbox]]’’.</td>
+<td align="left">Here’s a link to a page named <a href="journal.html#journal">Sandbox</a>.<br> You can even say <a href="journal.html#journal">Sandbox</a>es and the link will show up right.<br> You can put formatting around a link. Example: <strong><a href="journal.html#journal">Sandbox</a></strong>.</td>
+</tr>
+<tr class="even">
+<td align="left">You can link to an arbitrary piece of text with a piped link. Put the link target first, then the pipe character “</td>
+<td align="left">“, then the link text - as in this example.</td>
+</tr>
+<tr class="odd">
+<td align="left">You can make an external link to a Web page just by typing an URL, e.g. <a href="http://igem.org" class="uri">http://igem.org</a><br>Or you can link arbitrary text: iGEM. (Note: No “</td>
+<td align="left">&quot; for external links, URL and text are separated by a blank, and only single square brackets!)<br> You can make an external link to a Web page<br>just by typing an URL, e.g. <a href="http://igem.org" class="uri">http://igem.org</a></td>
+</tr>
+<tr class="even">
+<td align="left">Or you can generate a footnote-like link: ^[example footnote]</td>
+<td align="left">Or you can generate a footnote-like link:<a href="information-sources-for-bioinformatics.html#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Note</strong>: remember: internal links (using [[…]] tags to link to pages on this Wiki) are separated from linked text with a pipe character. External links (using […] tags to link to pages elsewhere on the Internet) are separated from linked text with a space character.</p>
 </div>
 <div id="special-syntax" class="section level3">
 <h3><span class="header-section-number">2.4.8</span> Special syntax</h3>
-<p>Two special syntax items need to be mentioned: “templates” and “magic words”: #### Templates Templates are pieces of Wikitext that are substituted where a code that links to them has been placed into a page. For example, if you enter {{Lorem}} on a page, the “Lorem ipsum dolor sit amet …” placeholder text is inserted in place of that code. Wikis make extensive use of templates. #### Magic words some reserved “magic”-words are replaced with dynamically created contents when the page is rendered. For example <strong>TOC</strong> forces placing a Table Of Contents at the position of this token rather than its default position, while <strong>NOTOC</strong> suppresses creation of a Table Of Contents on a page.</p>
+<p>Two special syntax items need to be mentioned: “templates” and “magic words”:</p>
+<div id="templates" class="section level4">
+<h4><span class="header-section-number">2.4.8.1</span> Templates</h4>
+<p>Templates are pieces of Wikitext that are substituted where a code that links to them has been placed into a page. For example, if you enter {{Lorem}} on a page, the “Lorem ipsum dolor sit amet …” placeholder text is inserted in place of that code. Wikis make extensive use of templates.</p>
+</div>
+<div id="magic-words" class="section level4">
+<h4><span class="header-section-number">2.4.8.2</span> Magic words</h4>
+<p>some reserved “magic”-words are replaced with dynamically created contents when the page is rendered. For example _<em>TOC_</em> forces placing a Table Of Contents at the position of this token rather than its default position, while _<em>NOTOC_</em> suppresses creation of a Table Of Contents on a page.</p>
+</div>
 </div>
 <div id="creating-a-new-page" class="section level3">
 <h3><span class="header-section-number">2.4.9</span> Creating a new page</h3>
@@ -502,7 +578,7 @@ Work through the contents below.
 </div>
 <div id="creating-a-new-section-or-subsection-on-a-page" class="section level3">
 <h3><span class="header-section-number">2.4.12</span> Creating a new section or subsection on a page</h3>
-<p>To create a section or subsection, simply insert a section header into an existing section. Header levels are defined by the number of “=” characters before and after the header text. Click on an edit link of this page to see example code. Once a page has more than two headings, the Wiki automatically creates a table of contents. You can adjust the position of the table of contents by typing the “magic word” __TOC__somewhere on your page (Note: double underscore), you can also suppress having a table of contents created with<strong>NOTOC</strong>.</p>
+<p>To create a section or subsection, simply insert a section header into an existing section. Header levels are defined by the number of “=” characters before and after the header text. Click on an edit link of this page to see example code. Once a page has more than two headings, the Wiki automatically creates a table of contents. You can adjust the position of the table of contents by typing the “magic word” _<em>TOC_</em> somewhere on your page (Note: double underscore), you can also suppress having a table of contents created with _<em>NOTOC_</em>.</p>
 </div>
 <div id="edit-conflicts" class="section level3">
 <h3><span class="header-section-number">2.4.13</span> Edit conflicts</h3>
@@ -515,11 +591,16 @@ Work through the contents below.
 </div>
 <div id="the-user-space-and-subpages" class="section level2">
 <h2><span class="header-section-number">2.5</span> The “User space” and subpages</h2>
-<p>The User: namespace on the Student Wiki is especially important. Namespaces allow us to distinguish pages that share the same logical name. Every student will create a journal page, but of course there can be only one [[Journal]] page on the Wiki. Therefore each of these pages needs a distinct name. The obvious solution is to keep them in the User: namespace, and create them as subpages of everyone’s User page. The page name of your user page is [[User:<your-login-name>]]; subpages are created with a backslash, and therefore your Course Journal page should be [[User:<your-login-name>/Journal]]. if you take more than one course, you can separate the journals like [[User:<your-login-name>/BCH441-Journal]], [[User:<your-login-name>/BCB410-Journal]], etc. Please do not create pages in the “Main space” of the Student Wiki! Do not omit the User:<your-login-name>/ part of the page name.</p>
+<p>The User: namespace on the Student Wiki is especially important.</p>
+<p>Namespaces allow us to distinguish pages that share the same logical name. Every student will create a journal page, but of course there can be only one [[Journal]] page on the Wiki. Therefore each of these pages needs a distinct name. The obvious solution is to keep them in the User: namespace, and create them as subpages of everyone’s User page. The page name of your user page is [[User:<your-login-name>]]; subpages are created with a backslash, and therefore your Course Journal page should be [[User:<your-login-name>/Journal]]. if you take more than one course, you can separate the journals like [[User:<your-login-name>/BCH441-Journal]], [[User:<your-login-name>/BCB410-Journal]], etc.</p>
+<p>Please do not create pages in the “Main space” of the Student Wiki! Do not omit the User:<your-login-name>/ part of the page name.</p>
 </div>
 <div id="copyright" class="section level2">
 <h2><span class="header-section-number">2.6</span> Copyright</h2>
-<p>Over the last decades, in bioinformatics and many other fields of science, the paradigm under which we create value has profoundly changed. While we previously considered restrictions on the use of our insights important, tried to keep knowledge under control, and thought in terms of intellectual property, the modern paradigm is mindshare. We strive to make our work maximally useful to others, and to document how we are creating this utility. This does not mean that we are simply putting everything into the public domain: yes, people should use our ideas, but we must receive credit - as a currency for grant and scholarship applications and the like, to enable our future work. The right tool for this is copyright. Everything we write and create automatically falls under our copyright, there is no special copyright tag required. To have our material reused, we can either relinquish our copyright or grant a license to reuse. Material that is created in coursework will ideally be useful elsewhere, but it is only useful if its use is permitted and regulated. Wikis are tools for collaboration, and Wikipedia generally applies a site-wise license to all material. In our work we take a similar approach, but we apply licenses more specifically<a href="information-sources-for-bioinformatics.html#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. All material submitted for credit, including code, documentation, essays, manuals, images, lab journal entries, insights! pages etc. must be licensed with an appropriate open-source license. This is a strict requirement for the course. For code this is the MIT software license, for everything else this is the Creative Commons Attribution 4.0 International License. The MIT license for code guarantees that there are no restrictions on re-use other than fair and visible attribution of the authors’ work. The CC license guarantees proper attribution of authorship but allows free use otherwise. Together, these licenses allow the material to be used, refactored, updated and republished and thus (hopefully) give it a fertile future life. In order to keep copyright and licenses consistent throughout the site, we use a template tag - simply insert it at the bottom of a page: Entering the template code … {{CC-BY}} creates the copyright message …</p>
+<p>Over the last decades, in bioinformatics and many other fields of science, the paradigm under which we create value has profoundly changed. While we previously considered restrictions on the use of our insights important, tried to keep knowledge under control, and thought in terms of intellectual property, the modern paradigm is mindshare. We strive to make our work maximally useful to others, and to document how we are creating this utility. This does not mean that we are simply putting everything into the public domain: yes, people should use our ideas, but we must receive credit - as a currency for grant and scholarship applications and the like, to enable our future work. The right tool for this is copyright.</p>
+<p>Everything we write and create automatically falls under our copyright, there is no special copyright tag required. To have our material reused, we can either relinquish our copyright or grant a license to reuse. Material that is created in coursework will ideally be useful elsewhere, but it is only useful if its use is permitted and regulated.</p>
+<p>Wikis are tools for collaboration, and Wikipedia generally applies a site-wise license to all material. In our work we take a similar approach, but we apply licenses more specifically<a href="information-sources-for-bioinformatics.html#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. All material submitted for credit, including code, documentation, essays, manuals, images, lab journal entries, insights! pages etc. must be licensed with an appropriate open-source license. This is a strict requirement for the course. For code this is the MIT software license, for everything else this is the Creative Commons Attribution 4.0 International License. The MIT license for code guarantees that there are no restrictions on re-use other than fair and visible attribution of the authors’ work. The CC license guarantees proper attribution of authorship but allows free use otherwise. Together, these licenses allow the material to be used, refactored, updated and republished and thus (hopefully) give it a fertile future life.</p>
+<p>In order to keep copyright and licenses consistent throughout the site, we use a template tag - simply insert it at the bottom of a page: Entering the template code … {{CC-BY}} creates the copyright message …</p>
 <p>This copyrighted material is licensed under a Creative Commons Attribution 4.0 International License. Follow the link to learn more.</p>
 </div>
 <div id="task" class="section level2">
@@ -566,7 +647,20 @@ Play around some more. Feel free to ask how to go about achieving a particular e
 </div>
 <div id="self-evaluation" class="section level2">
 <h2><span class="header-section-number">2.8</span> Self-evaluation</h2>
-<p>You should be familiar with the following: * How to Login to the Student Wiki and access your user page; * viewing a page’s history; * basic text formatting and Wiki markup; * “signing” your name; * creating internal and external links; * creating section headers on a page on multiple levels; * reverting a changed page to an earlier version; * creating a new page (as a subpage of an existing page); * the concept of namespaces - especially the default (“main”) and User: namespace; * the concept of categories and how to add a page to a category; * copyright on the Student Wiki, and how to insert a license note.</p>
+<p>You should be familiar with the following:</p>
+<ul>
+<li>How to Login to the Student Wiki and access your user page;</li>
+<li>viewing a page’s history;</li>
+<li>basic text formatting and Wiki markup;</li>
+<li>“signing” your name;</li>
+<li>creating internal and external links;</li>
+<li>creating section headers on a page on multiple levels;</li>
+<li>reverting a changed page to an earlier version;</li>
+<li>creating a new page (as a subpage of an existing page);</li>
+<li>the concept of namespaces - especially the default (“main”) and User: namespace;</li>
+<li>the concept of categories and how to add a page to a category;</li>
+<li>copyright on the Student Wiki, and how to insert a license note.</li>
+</ul>
 </div>
 <div id="further-reading-links-and-resources" class="section level2">
 <h2><span class="header-section-number">2.9</span> Further reading, links and resources</h2>
@@ -612,7 +706,7 @@ Play around some more. Feel free to ask how to go about achieving a particular e
 <div class="footnotes">
 <hr />
 <ol start="1">
-<li id="fn1"><p>example footnote<a href="wiki.html#fnref1">↩</a></p></li>
+<li id="fn1"><p><a href="http://igem.org" class="uri">http://igem.org</a><a href="wiki.html#fnref1">↩</a></p></li>
 <li id="fn2"><p><strong>Note</strong>:that additional rules for collaboration in the context of coursework derive from the rules for academic integrity and plagiarism. If some text is not copyrighted, this does not mean you can use it without reference and thus imply it is your own idea. That would be plagiarism.<a href="wiki.html#fnref2">↩</a></p></li>
 </ol>
 </div>
@@ -653,8 +747,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/bcb420-2020/General_course_prep/edit/master/01-Wiki_editing.Rmd",
-"text": "Edit"
+"link": null,
+"text": null
 },
 "history": {
 "link": "https://github.com/bcb420-2020/General_course_prep/commit/master/01-Wiki_editing.Rmd",

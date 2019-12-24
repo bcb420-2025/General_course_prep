@@ -72,7 +72,7 @@ Here are some examples of the markup of Wikitext. It is not the same as HTML mar
 
 | What you type |  What it looks like| 
 |:----------------------------------|:--------------------------------------| 
-| You can emphasize text by putting two apostrophes on each side. Three apostrophes will emphasize it strongly. Five apostrophes is even stronger.| You can **emphasize text** by putting two apostrophes on each side. Three apostrophes will emphasize it **strongly**. Five apostrophes is **even stronger**. |
+| You can ''emphasize text'' by putting two apostrophes on each side. Three apostrophes will emphasize it '''strongly'''. Five apostrophes is '''''even stronger'''''.| You can **emphasize text** by putting two apostrophes on each side. Three apostrophes will emphasize it **strongly**. Five apostrophes is **even stronger**. |
 | A single newline has no effect on the layout.But an empty line starts a new paragraph. | A single newline has no effect on the layout.<br> But an empty line starts a new paragraph. |
 |You can break lines without starting a new paragraph using a \<br\> tag.| You can break lines<br> without starting a new paragraph.<br>|
 
@@ -83,36 +83,25 @@ Example:
 <pre>You can format text in a monospace font with a dashed box around it either by marking it with the HTML \<pre\>" tag, or by putting a blank space at the beginning of a line.</pre>
 
 ### Other special characters at the beginning of a line include:
-bulleted list
-
-* bulleted list
-
-numbered list
-
-1. numbered list
-
-term
-
-; term
-
-definition
-
-: and definition
+| What you type |  What it looks like| 
+|:----------------------------------|:--------------------------------------| 
+| \* bulleted list | * bulleted list |
+| # numbered list | 1. numbered list |
+| ; term | **term** |
+| : definition | **definition** |
 
 ### Other special characters at the beginning of a line include:
 
 You should "sign" your comments on discussion pages:
-Three tildes gives your user name - Boris (talk)
-Four tildes: user name plus date/time - Boris (talk) 22:18, 27 December 2012 (EST)
-Five tildes: date/time alone - 22:18, 27 December 2012 (EST)
-You should "sign" your comments on discusion pages:
-: Three tildes gives your user name - ~~~
-: Four tildes: user name plus date/time - ~~~~
-: Five tildes: date/time alone - ~~~~~
 
+| What you type |  What it looks like| 
+|:----------------------------------|:--------------------------------------| 
+| : Three tildes gives your user name - \~\~\~ | Three tildes gives your user name - Boris (talk) |
+| : Four tildes: user name plus date/time - \~\~\~\~ | Four tildes: user name plus date/time - Boris (talk) 22:18, 27 December 2012 (EST) |
+| : Five tildes: date/time alone - \~\~\~\~\~ | Five tildes: date/time alone - 22:18, 27 December 2012 (EST) |
+|Use normal HTML character codes for special characters, or use Unicode. For example: \&gt; \&lt; \&amp; \&deg; \&Aring; \&Auml; \&uuml; \&rarr; | Use normal HTML character codes for special characters, or use Unicode. For example: &gt; &lt; &amp; &deg; &Aring; &Auml; &uuml; &rarr; |
 
-  * Use normal HTML character codes for special characters, or use Unicode. For example: > < & ° Å Ä ü →
-  * Use normal HTML character codes for special characters, or use Unicode. For example: &gt; &lt; &amp; &deg; &Aring; &Auml; &uuml; &rarr;
+\BeginKnitrBlock{rmd-caution}<div class="rmd-caution">Signatures NOT supported in github wikimedia implementation</div>\EndKnitrBlock{rmd-caution}
 
 ### You can use HTML tags, too, if you want. Some useful ways to use HTML:
 | What you type |  What it looks like| 
@@ -122,64 +111,45 @@ You should "sign" your comments on discusion pages:
 |Superscripts (with \<sup\>)   and subscripts(with \<sub\>) : x2, x2|x<sup>2</sup>, x<sub>2</sub>|
 |Invisible comments that only appear while editing the page.|<!-- Note to editors: blah blah blah. -->|
 
-For a list of HTML tags that are allowed, see HTML in wikitext. I tend to use Wiki-markup when I'm in a hurry, but use the HTML tag whenever I can't remember a Wiki-tag. It really doesn't make a difference.
+For a list of HTML tags that are allowed, see [HTML in wikitext](https://meta.wikimedia.org/wiki/Help:HTML_in_wikitext). I tend to use Wiki-markup when I'm in a hurry, but use the HTML tag whenever I can't remember a Wiki-tag. It really doesn't make a difference.
+
 However: I never use Wiki-table markup. I find it less intuitive than HTML markup, more difficult to debug, and there's really no point in remembering both types of markup given that one really needs to be comfortable with HTML tables anyway.
  
  
 ### Links
 
 You will often want to make clickable links to other pages.
-What it looks like
-What you type
-Here's a link to a page named Sandbox. You can even say Sandboxes and the link will show up right.
-You can put formatting around a link. Example: Sandbox.
-Here's a link to a page named [[Sandbox]].
-You can even say [[Sandbox]]es
-and the link will show up right.
 
-You can put formatting around a link.
-Example: ''[[Sandbox]]''.
+| What you type |  What it looks like| 
+|:----------------------------------|:--------------------------------------| 
+|Here's a link to a page named [[Sandbox]].<br> You can even say [[Sandbox]]es<br> and the link will show up right.<br>You can put formatting around a link. Example: ''[[Sandbox]]''.|Here's a link to a page named [Sandbox](#journal).<br> You can even say [Sandbox](#journal)es and the link will show up right.<br> You can put formatting around a link. Example: **[Sandbox](#journal)**. |
+| You can link to an arbitrary piece of text with a piped link. Put the link target first, then the pipe character "|", then the link text - as in this example.| You can link an arbitrary piece of text<br>with a ''piped link''. Put the link<br>target first, then the pipe character "|", then >br>the link text - as in [[Sandbox| this example]].|
+|You can make an external link to a Web page just by typing an URL, e.g. http://igem.org<br>Or you can link arbitrary text: iGEM. (Note: No "|" for external links, URL and text are separated by a blank, and only single square brackets!)<br> You can make an external link to a Web page<br>just by typing an URL, e.g. http://igem.org|Or you can link arbitrary text:<br>[http://igem.org iGEM]. <br>(Note: No "|" for **external** links, URL and text are separated by a blank, and only single square brackets!)|
+|Or you can generate a footnote-like link: \^[example footnote]|Or you can generate a footnote-like link:^[http://igem.org].|
 
-
-You can link to an arbitrary piece of text with a piped link. Put the link target first, then the pipe character "|", then the link text - as in this example.
-You can link an arbitrary piece of text
-with a ''piped link''. Put the link
-target first, then the pipe character "|", then
-the link text - as in [[Sandbox| this example]].
-
-
-You can make an external link to a Web page just by typing an URL, e.g. http://igem.org
-Or you can link arbitrary text: iGEM. (Note: No "|" for external links, URL and text are separated by a blank, and only single square brackets!)
-Or you can generate a footnote-like link: ^[example footnote].
-You can make an external link to a Web page
-just by typing an URL, e.g. http://igem.org
-
-Or you can link arbitrary text:
-[http://igem.org iGEM]. 
-(Note: No "|" for '''external''' links,
-URL and text are separated by a blank,
-and only single square brackets!)
-
-Or you can generate a footnote-like link:
-[http://igem.org]. 
-
-
+ 
 **Note**: remember: internal links (using [[...]] tags to link to pages on this Wiki) are separated from linked text with a pipe character. External links (using [...] tags to link to pages elsewhere on the Internet) are separated from linked text with a space character.
  
  
 ### Special syntax
 Two special syntax items need to be mentioned: "templates" and "magic words":
+
 #### Templates
+
 Templates are pieces of Wikitext that are substituted where a code that links to them has been placed into a page. For example, if you enter {{Lorem}} on a page, the "Lorem ipsum dolor sit amet ..." placeholder text is inserted in place of that code. Wikis make extensive use of templates.
+
 #### Magic words
-some reserved "magic"-words are replaced with dynamically created contents when the page is rendered. For example __TOC__ forces placing a Table Of Contents at the position of this token rather than its default position, while __NOTOC__ suppresses creation of a Table Of Contents on a page.
+
+some reserved "magic"-words are replaced with dynamically created contents when the page is rendered. For example \__TOC\__ forces placing a Table Of Contents at the position of this token rather than its default position, while \__NOTOC\__ suppresses creation of a Table Of Contents on a page.
  
  
 ### Creating a new page
+
 To create a new page simply insert a link to a Wiki page, which has a page name that does not exist yet. The link will appear in red (except if you inadvertently used the name of a page that already exists), and the new page will be created when you click on the link. Page names can be long and contain blank spaces. Internally, all blank spaces are converted to underscore characters, but you can use the page name without underscores in links; the Wiki software translates this for you.
  
  
 ### Namespaces
+
 The Wiki maintains some pages in special collections, in so called "namespaces". This is useful, because the behaviour of the software can be customized for different namespaces: for example you may be allowed to edit in the main- and the user- namespace, but not in the MediaWiki: namespace, where pages are held that affect the gears and wires of the Wiki. Page names without a prefix live in the main space. Some commonly used prefixes are:
 
   * User: - personal pages for user with an account on the Wiki;
@@ -191,30 +161,39 @@ The Wiki maintains some pages in special collections, in so called "namespaces".
  
  
 ### Categories
+
 Once your page has been edited, you can associate it with one or more categories. Add the appropriate category tag by typing [[Category:BCH441_2013]] or [[Category:BCB410_2013]]. The page is then automatically linked from a page that collects all pages with that category tag. I would prefer that you do not create new categories; ask me if you feel a need for it.
  
  
 ### Creating a new section or subsection on a page
-To create a section or subsection, simply insert a section header into an existing section. Header levels are defined by the number of "=" characters before and after the header text. Click on an edit link of this page to see example code. Once a page has more than two headings, the Wiki automatically creates a table of contents. You can adjust the position of the table of contents by typing the "magic word" __TOC__somewhere on your page (Note: double underscore), you can also suppress having a table of contents created with__NOTOC__.
+
+To create a section or subsection, simply insert a section header into an existing section. Header levels are defined by the number of "=" characters before and after the header text. Click on an edit link of this page to see example code. Once a page has more than two headings, the Wiki automatically creates a table of contents. You can adjust the position of the table of contents by typing the "magic word" \__TOC\__ somewhere on your page (Note: double underscore), you can also suppress having a table of contents created with \__NOTOC\__.
  
 ### Edit conflicts
+
 If someone else makes an edit while you are making yours, the result is an edit conflict. Many conflicts can be automatically resolved by the Wiki. If it can't be resolved, however, you will need to resolve it yourself. The Wiki gives you two text boxes, where the top one is the other person's edit and the bottom one is your edit. Merge your edits into the top edit box, which is the only one that will be saved.
  
  
 ### Reverting pages to a previous state
+
 Sometimes a page needs to be reverted to a previous state. Access the page through a link to the Recent Changes special page: Special:Recentchanges. Find the page you need to revert, click on the hist link, click on the version you need and verify that it is the correct one. Then click on the edit tab at the top and Save page. A new version of the page is then created with the old text. Note that this does not actually overwrite anything - all edits are archived in the database.
 
 ## The "User space" and subpages
+
 The User: namespace on the Student Wiki is especially important.
+
 Namespaces allow us to distinguish pages that share the same logical name. Every student will create a journal page, but of course there can be only one [[Journal]] page on the Wiki. Therefore each of these pages needs a distinct name. The obvious solution is to keep them in the User: namespace, and create them as subpages of everyone's User page. The page name of your user page is [[User:<your-login-name>]]; subpages are created with a backslash, and therefore your Course Journal page should be [[User:<your-login-name>/Journal]]. if you take more than one course, you can separate the journals like [[User:<your-login-name>/BCH441-Journal]], [[User:<your-login-name>/BCB410-Journal]], etc.
+
 Please do not create pages in the "Main space" of the Student Wiki! Do not omit the User:<your-login-name>/ part of the page name.
 
- 
- 
 ## Copyright
+
 Over the last decades, in bioinformatics and many other fields of science, the paradigm under which we create value has profoundly changed. While we previously considered restrictions on the use of our insights important, tried to keep knowledge under control, and thought in terms of intellectual property, the modern paradigm is mindshare. We strive to make our work maximally useful to others, and to document how we are creating this utility. This does not mean that we are simply putting everything into the public domain: yes, people should use our ideas, but we must receive credit - as a currency for grant and scholarship applications and the like, to enable our future work. The right tool for this is copyright.
+
 Everything we write and create automatically falls under our copyright, there is no special copyright tag required. To have our material reused, we can either relinquish our copyright or grant a license to reuse. Material that is created in coursework will ideally be useful elsewhere, but it is only useful if its use is permitted and regulated.
+
 Wikis are tools for collaboration, and Wikipedia generally applies a site-wise license to all material. In our work we take a similar approach, but we apply licenses more specifically^[**Note**:that additional rules for collaboration in the context of coursework derive from the rules for academic integrity and plagiarism. If some text is not copyrighted, this does not mean you can use it without reference and thus imply it is your own idea. That would be plagiarism.]. All material submitted for credit, including code, documentation, essays, manuals, images, lab journal entries, insights! pages etc. must be licensed with an appropriate open-source license. This is a strict requirement for the course. For code this is the MIT software license, for everything else this is the Creative Commons Attribution 4.0 International License. The MIT license for code guarantees that there are no restrictions on re-use other than fair and visible attribution of the authors' work. The CC license guarantees proper attribution of authorship but allows free use otherwise. Together, these licenses allow the material to be used, refactored, updated and republished and thus (hopefully) give it a fertile future life.
+
 In order to keep copyright and licenses consistent throughout the site, we use a template tag - simply insert it at the bottom of a page:
 Entering the template code ...
 {{CC-BY}}
@@ -243,7 +222,9 @@ creates the copyright message ...
 </div>
 
 ## Self-evaluation
+
 You should be familiar with the following:
+
   * How to Login to the Student Wiki and access your user page;
   * viewing a page's history;
   * basic text formatting and Wiki markup;
