@@ -141,6 +141,10 @@ Two special syntax items need to be mentioned: "templates" and "magic words":
 
 Templates are pieces of Wikitext that are substituted where a code that links to them has been placed into a page. For example, if you enter {{Lorem}} on a page, the "Lorem ipsum dolor sit amet ..." placeholder text is inserted in place of that code. Wikis make extensive use of templates.
 
+```{block2, type="rmd-caution"}
+Templates NOT supported in github wikimedia implementation
+```
+
 #### Magic words
 
 some reserved "magic"-words are replaced with dynamically created contents when the page is rendered. For example \__TOC\__ forces placing a Table Of Contents at the position of this token rather than its default position, while \__NOTOC\__ suppresses creation of a Table Of Contents on a page.
@@ -166,7 +170,10 @@ The Wiki maintains some pages in special collections, in so called "namespaces".
 ### Categories
 
 Once your page has been edited, you can associate it with one or more categories. Add the appropriate category tag by typing [[Category:BCH441_2013]] or [[Category:BCB410_2013]]. The page is then automatically linked from a page that collects all pages with that category tag. I would prefer that you do not create new categories; ask me if you feel a need for it.
- 
+
+```{block2, type="rmd-caution"}
+Categories NOT supported in github wikimedia implementation
+``` 
  
 ### Creating a new section or subsection on a page
 
@@ -203,6 +210,10 @@ Entering the template code ...
 creates the copyright message ...
 
  This copyrighted material is licensed under a Creative Commons Attribution 4.0 International License. Follow the link to learn more.
+
+```{block2, type="rmd-caution"}
+Templates NOT supported in github wikimedia implementation.  You can add the Copyright information as a footer to all your created pages. 
+```
 
 `r task_counter <- task_counter + 1`
 ## Task `r task_counter`
